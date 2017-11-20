@@ -1,18 +1,18 @@
 //
-//  FirstViewController.m
+//  HomeViewController.m
 //  ProjectX
 //
 //  Created by Nan Zuhumben on 20/11/2017.
 //  Copyright © 2017 University of Leeds. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "HomeViewController.h"
 
-@interface FirstViewController ()
+@interface HomeViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation HomeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

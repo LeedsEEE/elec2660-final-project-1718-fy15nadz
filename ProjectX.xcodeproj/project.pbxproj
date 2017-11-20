@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2ABE5F8E1FC30ADA00C6E68D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABE5F8D1FC30ADA00C6E68D /* AppDelegate.m */; };
-		2ABE5F911FC30ADA00C6E68D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABE5F901FC30ADA00C6E68D /* FirstViewController.m */; };
+		2ABE5F911FC30ADA00C6E68D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABE5F901FC30ADA00C6E68D /* HomeViewController.m */; };
 		2ABE5F941FC30ADA00C6E68D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABE5F931FC30ADA00C6E68D /* SecondViewController.m */; };
 		2ABE5F971FC30ADA00C6E68D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ABE5F951FC30ADA00C6E68D /* Main.storyboard */; };
 		2ABE5F991FC30ADA00C6E68D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ABE5F981FC30ADA00C6E68D /* Assets.xcassets */; };
@@ -39,8 +39,8 @@
 		2ABE5F891FC30ADA00C6E68D /* ProjectX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ABE5F8C1FC30ADA00C6E68D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2ABE5F8D1FC30ADA00C6E68D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2ABE5F8F1FC30ADA00C6E68D /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		2ABE5F901FC30ADA00C6E68D /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		2ABE5F8F1FC30ADA00C6E68D /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		2ABE5F901FC30ADA00C6E68D /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		2ABE5F921FC30ADA00C6E68D /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		2ABE5F931FC30ADA00C6E68D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		2ABE5F961FC30ADA00C6E68D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -106,8 +106,8 @@
 			children = (
 				2ABE5F8C1FC30ADA00C6E68D /* AppDelegate.h */,
 				2ABE5F8D1FC30ADA00C6E68D /* AppDelegate.m */,
-				2ABE5F8F1FC30ADA00C6E68D /* FirstViewController.h */,
-				2ABE5F901FC30ADA00C6E68D /* FirstViewController.m */,
+				2ABE5F8F1FC30ADA00C6E68D /* HomeViewController.h */,
+				2ABE5F901FC30ADA00C6E68D /* HomeViewController.m */,
 				2ABE5F921FC30ADA00C6E68D /* SecondViewController.h */,
 				2ABE5F931FC30ADA00C6E68D /* SecondViewController.m */,
 				2ABE5F951FC30ADA00C6E68D /* Main.storyboard */,
@@ -273,7 +273,7 @@
 				2ABE5F941FC30ADA00C6E68D /* SecondViewController.m in Sources */,
 				2ABE5F8E1FC30ADA00C6E68D /* AppDelegate.m in Sources */,
 				2ABE5F9F1FC30ADA00C6E68D /* main.m in Sources */,
-				2ABE5F911FC30ADA00C6E68D /* FirstViewController.m in Sources */,
+				2ABE5F911FC30ADA00C6E68D /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +438,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ProjectX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.leeds.ProjectX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -451,6 +452,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ProjectX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.leeds.ProjectX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
