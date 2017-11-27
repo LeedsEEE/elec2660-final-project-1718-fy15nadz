@@ -9,8 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface HomeViewController : UIViewController
+- (IBAction)runButton:(id)sender;
+
+
 @property (strong, nonatomic) IBOutlet UITextField *heightText;
 @property (strong, nonatomic) IBOutlet UITextField *weightText;
+@property (strong, nonatomic) IBOutlet UILabel *bmiLabel;
 
 
 @end

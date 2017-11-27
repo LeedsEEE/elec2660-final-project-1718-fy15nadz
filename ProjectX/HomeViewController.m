@@ -26,4 +26,10 @@
 }
 
 
+- (IBAction)runButton:(id)sender {
+    float h = [_heightText.text floatValue];
+    float w = [_weightText.text floatValue];
+    float bmiV = w/(h*h);
+    self.bmiLabel.text = [NSString stringWithFormat:@"Body Mass Index = %f kg/m^2" , bmiV];
+}
 @end
