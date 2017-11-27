@@ -22,7 +22,7 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    //Dispose of any resources that can be recreated.
 }
 
 
@@ -30,6 +30,6 @@
     float h = [_heightText.text floatValue];
     float w = [_weightText.text floatValue];
     float bmiV = w/(h*h);
-    self.bmiLabel.text = [NSString stringWithFormat:@"Body Mass Index = %f kg/m^2" , bmiV];
+    self.bmiLabel.text = [NSString stringWithFormat:@"Body Mass Index = %.2f kg/m^2" , bmiV];
 }
 @end
