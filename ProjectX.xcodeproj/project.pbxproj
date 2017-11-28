@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2AAFFE151FCDC772001C7647 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAFFE141FCDC772001C7647 /* PageViewController.m */; };
 		2ABE5F8E1FC30ADA00C6E68D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABE5F8D1FC30ADA00C6E68D /* AppDelegate.m */; };
 		2ABE5F911FC30ADA00C6E68D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABE5F901FC30ADA00C6E68D /* HomeViewController.m */; };
 		2ABE5F941FC30ADA00C6E68D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABE5F931FC30ADA00C6E68D /* SecondViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2AAFFE131FCDC772001C7647 /* PageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		2AAFFE141FCDC772001C7647 /* PageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
 		2ABE5F891FC30ADA00C6E68D /* ProjectX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ABE5F8C1FC30ADA00C6E68D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2ABE5F8D1FC30ADA00C6E68D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -111,6 +114,8 @@
 				2ABE5F921FC30ADA00C6E68D /* SecondViewController.h */,
 				2ABE5F931FC30ADA00C6E68D /* SecondViewController.m */,
 				2ABE5F951FC30ADA00C6E68D /* Main.storyboard */,
+				2AAFFE131FCDC772001C7647 /* PageViewController.h */,
+				2AAFFE141FCDC772001C7647 /* PageViewController.m */,
 				2ABE5F981FC30ADA00C6E68D /* Assets.xcassets */,
 				2ABE5F9A1FC30ADA00C6E68D /* LaunchScreen.storyboard */,
 				2ABE5F9D1FC30ADA00C6E68D /* Info.plist */,
@@ -273,6 +278,7 @@
 				2ABE5F941FC30ADA00C6E68D /* SecondViewController.m in Sources */,
 				2ABE5F8E1FC30ADA00C6E68D /* AppDelegate.m in Sources */,
 				2ABE5F9F1FC30ADA00C6E68D /* main.m in Sources */,
+				2AAFFE151FCDC772001C7647 /* PageViewController.m in Sources */,
 				2ABE5F911FC30ADA00C6E68D /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
