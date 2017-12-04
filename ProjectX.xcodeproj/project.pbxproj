@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A7C43871FD57D6D00AA49F5 /* BulkRoutineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C43861FD57D6D00AA49F5 /* BulkRoutineViewController.m */; };
+		2A7C438A1FD5823700AA49F5 /* ShredViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C43891FD5823700AA49F5 /* ShredViewController.m */; };
 		2ABE5F8E1FC30ADA00C6E68D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABE5F8D1FC30ADA00C6E68D /* AppDelegate.m */; };
 		2ABE5F911FC30ADA00C6E68D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABE5F901FC30ADA00C6E68D /* HomeViewController.m */; };
 		2ABE5F941FC30ADA00C6E68D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABE5F931FC30ADA00C6E68D /* SecondViewController.m */; };
@@ -36,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A7C43851FD57D6D00AA49F5 /* BulkRoutineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BulkRoutineViewController.h; sourceTree = "<group>"; };
+		2A7C43861FD57D6D00AA49F5 /* BulkRoutineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BulkRoutineViewController.m; sourceTree = "<group>"; };
+		2A7C43881FD5823700AA49F5 /* ShredViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShredViewController.h; sourceTree = "<group>"; };
+		2A7C43891FD5823700AA49F5 /* ShredViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShredViewController.m; sourceTree = "<group>"; };
 		2ABE5F891FC30ADA00C6E68D /* ProjectX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ABE5F8C1FC30ADA00C6E68D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2ABE5F8D1FC30ADA00C6E68D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -110,6 +116,10 @@
 				2ABE5F901FC30ADA00C6E68D /* HomeViewController.m */,
 				2ABE5F921FC30ADA00C6E68D /* SecondViewController.h */,
 				2ABE5F931FC30ADA00C6E68D /* SecondViewController.m */,
+				2A7C43851FD57D6D00AA49F5 /* BulkRoutineViewController.h */,
+				2A7C43861FD57D6D00AA49F5 /* BulkRoutineViewController.m */,
+				2A7C43881FD5823700AA49F5 /* ShredViewController.h */,
+				2A7C43891FD5823700AA49F5 /* ShredViewController.m */,
 				2ABE5F951FC30ADA00C6E68D /* Main.storyboard */,
 				2ABE5F981FC30ADA00C6E68D /* Assets.xcassets */,
 				2ABE5F9A1FC30ADA00C6E68D /* LaunchScreen.storyboard */,
@@ -271,8 +281,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ABE5F941FC30ADA00C6E68D /* SecondViewController.m in Sources */,
+				2A7C438A1FD5823700AA49F5 /* ShredViewController.m in Sources */,
 				2ABE5F8E1FC30ADA00C6E68D /* AppDelegate.m in Sources */,
 				2ABE5F9F1FC30ADA00C6E68D /* main.m in Sources */,
+				2A7C43871FD57D6D00AA49F5 /* BulkRoutineViewController.m in Sources */,
 				2ABE5F911FC30ADA00C6E68D /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

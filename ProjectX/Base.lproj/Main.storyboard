@@ -67,6 +67,9 @@
                                 <state key="normal" title="Bulking">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="BQt-Ao-RlQ" kind="show" id="0MX-bs-MSP"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jyt-eW-p5d">
                                 <rect key="frame" x="246" y="507" width="95" height="35"/>
@@ -74,6 +77,9 @@
                                 <state key="normal" title="Shredding">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="00S-YT-b03" kind="show" id="slF-Rd-YMf"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hyj-FR-oUC">
                                 <rect key="frame" x="156" y="512" width="24" height="21"/>
@@ -168,6 +174,64 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="749.60000000000002" y="-320.68965517241384"/>
+        </scene>
+        <!--Shred View Controller-->
+        <scene sceneID="5sk-Xd-Ymd">
+            <objects>
+                <viewController id="00S-YT-b03" customClass="ShredViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Av-ML-X2S">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shredding Gym Routine" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Qx-4Z-rth">
+                                <rect key="frame" x="73" y="30" width="229" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.82642028290000002" green="0.81069100800000005" blue="0.82810833100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8Qx-4Z-rth" firstAttribute="top" secondItem="G6v-XB-FXD" secondAttribute="top" constant="10" id="R7I-Fz-OlB"/>
+                            <constraint firstItem="8Qx-4Z-rth" firstAttribute="leading" secondItem="G6v-XB-FXD" secondAttribute="leading" constant="73" id="Ya0-wN-RiU"/>
+                            <constraint firstItem="G6v-XB-FXD" firstAttribute="bottom" secondItem="8Qx-4Z-rth" secondAttribute="bottom" constant="616" id="lzj-Tg-Ewd"/>
+                            <constraint firstItem="G6v-XB-FXD" firstAttribute="trailing" secondItem="8Qx-4Z-rth" secondAttribute="trailing" constant="73" id="uFV-Lg-mog"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="G6v-XB-FXD"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jUD-Nq-Dzr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1672.8" y="-174.06296851574214"/>
+        </scene>
+        <!--Bulk Routine View Controller-->
+        <scene sceneID="U4p-N6-SC0">
+            <objects>
+                <viewController id="BQt-Ao-RlQ" customClass="BulkRoutineViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jqD-Kc-jUa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bulking Gym Routine" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ivb-TE-5tr">
+                                <rect key="frame" x="81" y="31" width="212" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.82642028294106817" green="0.81069100804005501" blue="0.82810833097109338" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ivb-TE-5tr" firstAttribute="top" secondItem="0dE-gr-7yO" secondAttribute="top" constant="11" id="2Ac-Ue-cJa"/>
+                            <constraint firstItem="0dE-gr-7yO" firstAttribute="trailing" secondItem="Ivb-TE-5tr" secondAttribute="trailing" constant="81.5" id="ahm-Jp-9NL"/>
+                            <constraint firstItem="Ivb-TE-5tr" firstAttribute="leading" secondItem="0dE-gr-7yO" secondAttribute="leading" constant="81.5" id="nqb-l9-8G0"/>
+                            <constraint firstItem="0dE-gr-7yO" firstAttribute="bottom" secondItem="Ivb-TE-5tr" secondAttribute="bottom" constant="615" id="yQS-cA-mcz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="0dE-gr-7yO"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ooM-Y3-pb0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1673" y="-858"/>
         </scene>
         <!--Second-->
         <scene sceneID="wg7-f3-ORb">
