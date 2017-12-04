@@ -19,8 +19,18 @@
     // Do any additional setup after loading the view, typically from a nib.
     _heightText.delegate = self ; // giving the height textfield access to objective C buit-in functions
     _weightText.delegate = self ; // giving the weight textfield access to objective C buit-in functions
+    
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [self.navigationController setNavigationBarHidden:YES animated:animated];
+    [super viewWillAppear:animated];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [self.navigationController setNavigationBarHidden:NO animated:animated];
+    [super viewWillDisappear:animated];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -33,8 +43,8 @@
      // converting the the height value in the texfield from cm to m
     //in oder to calculate the bmi in the appropraiate unit
     float hh = h/100;
-    float w = [_weightText.text floatValue];
-    float bmiV = w/(hh*hh);
+    float w = [_weightText.text floatValue]; // converting the content of the textfield to float
+    float bmiV = w/(hh*hh);// formular to calculate bmi
     self.bmiLabel.text = [NSString stringWithFormat:@"Body Mass Index = %.2f kg/m^2" , bmiV];
 }
 //below using buit in function in order to limit number of characters in each text field.
