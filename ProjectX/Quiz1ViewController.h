@@ -9,5 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface Quiz1ViewController : UIViewController
+- (IBAction)quiz1Option1:(id)sender;
+- (IBAction)quiz1Option2:(id)sender;
+- (IBAction)quiz1Option3:(id)sender;
+- (IBAction)quiz1Option4:(id)sender;
 
+
+
+@property (weak, nonatomic) IBOutlet UILabel *quiz1Label;
 @end

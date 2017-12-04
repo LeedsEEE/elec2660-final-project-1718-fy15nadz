@@ -202,7 +202,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jUD-Nq-Dzr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1672.8" y="-174.06296851574214"/>
+            <point key="canvasLocation" x="1673" y="-321"/>
         </scene>
         <!--Bulk Routine View Controller-->
         <scene sceneID="U4p-N6-SC0">
@@ -230,7 +230,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ooM-Y3-pb0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1672.8" y="-858.62068965517244"/>
+            <point key="canvasLocation" x="1673" y="-995"/>
         </scene>
         <!--Second-->
         <scene sceneID="wg7-f3-ORb">
@@ -284,14 +284,23 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="boJ-Ch-kMh">
                                 <rect key="frame" x="141" y="276" width="83" height="30"/>
                                 <state key="normal" title="14kg/m^2"/>
+                                <connections>
+                                    <action selector="quiz1Option1:" destination="Qd2-sK-21x" eventType="touchUpInside" id="Ue2-NL-zs5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wya-yB-GyR">
                                 <rect key="frame" x="141" y="330" width="83" height="30"/>
                                 <state key="normal" title="24kgm^2"/>
+                                <connections>
+                                    <action selector="quiz1Option2:" destination="Qd2-sK-21x" eventType="touchUpInside" id="tLa-Pu-fae"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dqe-AU-WRN">
                                 <rect key="frame" x="141" y="378" width="83" height="30"/>
                                 <state key="normal" title="32kg/m^2"/>
+                                <connections>
+                                    <action selector="quiz1Option3:" destination="Qd2-sK-21x" eventType="touchUpInside" id="r3A-a4-BMg"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Which is a bmi value of an healthy adult?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eib-bd-3Lb">
                                 <rect key="frame" x="16" y="48" width="354" height="74"/>
@@ -308,10 +317,16 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ou6-7E-W2V">
                                 <rect key="frame" x="278" y="583" width="32" height="30"/>
                                 <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="bKE-yC-HpH" kind="show" id="6Ij-J9-AHI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Llq-oL-ii4">
                                 <rect key="frame" x="76" y="428" width="208" height="30"/>
                                 <state key="normal" title="This is a trick question"/>
+                                <connections>
+                                    <action selector="quiz1Option4:" destination="Qd2-sK-21x" eventType="touchUpInside" id="4x9-gu-ZlG"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -344,10 +359,28 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="shd-2G-ISy"/>
                     </view>
+                    <connections>
+                        <outlet property="quiz1Label" destination="lFU-E7-YGU" id="60U-Ea-xwd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3f7-Az-0aC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="716" y="400.74962518740631"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="MzF-uA-0Mu">
+            <objects>
+                <viewController id="bKE-yC-HpH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rQQ-Hw-EzL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="yy0-Lv-pAY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bFL-B2-2Ey" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1450" y="397"/>
         </scene>
         <!--Item-->
         <scene sceneID="06O-cg-yH2">
