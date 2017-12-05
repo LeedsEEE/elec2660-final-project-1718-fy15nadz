@@ -12,6 +12,8 @@
 		2A7C438D1FD5F7B900AA49F5 /* Quiz1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C438C1FD5F7B900AA49F5 /* Quiz1ViewController.m */; };
 		2A7C439F1FD6091200AA49F5 /* Quiz2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C439E1FD6091200AA49F5 /* Quiz2ViewController.m */; };
 		2A7C43A21FD611C400AA49F5 /* Quiz3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C43A11FD611C400AA49F5 /* Quiz3ViewController.m */; };
+		2A7C43A51FD615D800AA49F5 /* Quiz4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C43A41FD615D800AA49F5 /* Quiz4ViewController.m */; };
+		2A7C43A81FD61ACA00AA49F5 /* Quiz5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C43A71FD61ACA00AA49F5 /* Quiz5ViewController.m */; };
 		2ABE5F8E1FC30ADA00C6E68D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABE5F8D1FC30ADA00C6E68D /* AppDelegate.m */; };
 		2ABE5F911FC30ADA00C6E68D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABE5F901FC30ADA00C6E68D /* HomeViewController.m */; };
 		2ABE5F941FC30ADA00C6E68D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABE5F931FC30ADA00C6E68D /* SecondViewController.m */; };
@@ -51,6 +53,10 @@
 		2A7C439E1FD6091200AA49F5 /* Quiz2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quiz2ViewController.m; sourceTree = "<group>"; };
 		2A7C43A01FD611C400AA49F5 /* Quiz3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz3ViewController.h; sourceTree = "<group>"; };
 		2A7C43A11FD611C400AA49F5 /* Quiz3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quiz3ViewController.m; sourceTree = "<group>"; };
+		2A7C43A31FD615D800AA49F5 /* Quiz4ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz4ViewController.h; sourceTree = "<group>"; };
+		2A7C43A41FD615D800AA49F5 /* Quiz4ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quiz4ViewController.m; sourceTree = "<group>"; };
+		2A7C43A61FD61ACA00AA49F5 /* Quiz5ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz5ViewController.h; sourceTree = "<group>"; };
+		2A7C43A71FD61ACA00AA49F5 /* Quiz5ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quiz5ViewController.m; sourceTree = "<group>"; };
 		2ABE5F891FC30ADA00C6E68D /* ProjectX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ABE5F8C1FC30ADA00C6E68D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2ABE5F8D1FC30ADA00C6E68D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -136,6 +142,10 @@
 				2A7C439E1FD6091200AA49F5 /* Quiz2ViewController.m */,
 				2A7C43A01FD611C400AA49F5 /* Quiz3ViewController.h */,
 				2A7C43A11FD611C400AA49F5 /* Quiz3ViewController.m */,
+				2A7C43A31FD615D800AA49F5 /* Quiz4ViewController.h */,
+				2A7C43A41FD615D800AA49F5 /* Quiz4ViewController.m */,
+				2A7C43A61FD61ACA00AA49F5 /* Quiz5ViewController.h */,
+				2A7C43A71FD61ACA00AA49F5 /* Quiz5ViewController.m */,
 				2ABE5F981FC30ADA00C6E68D /* Assets.xcassets */,
 				2ABE5F9A1FC30ADA00C6E68D /* LaunchScreen.storyboard */,
 				2ABE5F9D1FC30ADA00C6E68D /* Info.plist */,
@@ -297,6 +307,8 @@
 			files = (
 				2ABE5F941FC30ADA00C6E68D /* SecondViewController.m in Sources */,
 				2A7C438A1FD5823700AA49F5 /* ShredViewController.m in Sources */,
+				2A7C43A51FD615D800AA49F5 /* Quiz4ViewController.m in Sources */,
+				2A7C43A81FD61ACA00AA49F5 /* Quiz5ViewController.m in Sources */,
 				2A7C439F1FD6091200AA49F5 /* Quiz2ViewController.m in Sources */,
 				2ABE5F8E1FC30ADA00C6E68D /* AppDelegate.m in Sources */,
 				2ABE5F9F1FC30ADA00C6E68D /* main.m in Sources */,
