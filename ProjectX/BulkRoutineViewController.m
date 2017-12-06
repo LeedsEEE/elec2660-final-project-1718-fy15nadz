@@ -17,13 +17,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-
+    if (_bulkvv > 15 ){
+        self.testBulkLabel.text = [NSString stringWithFormat: @"workinggggg!!!!!!!"];
     }
+
+}
 
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
 }
 
 /*

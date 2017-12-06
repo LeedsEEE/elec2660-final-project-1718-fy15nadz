@@ -7,7 +7,7 @@
 //
 
 #import "HomeViewController.h"
-//#import "BulkRoutineViewController.h"
+#import "BulkRoutineViewController.h"
 
 @interface HomeViewController () <UITextFieldDelegate>
 
@@ -32,6 +32,7 @@
     float hh = h/100;
     float w = [_weightText.text floatValue]; // converting the content of the textfield to float
     float bmiV = w/(hh*hh);// formular to calculate bmi
+    _bmivh = bmiV;
     self.bmiLabel.text = [NSString stringWithFormat:@"Body Mass Index = %.2f kg/m^2" , bmiV];
 }
 //below using buit in function in order to limit number of characters in each text field.
@@ -54,24 +55,24 @@ replacementString:(NSString *)string {
 /*- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     // Make sure your segue name in storyboard is the same as this line
-    if ([[segue identifier] isEqualToString:@"bmiBulk"])
-    {
+    if ([[segue identifier] isEqualToString:@"bmiBulk"]){
+        UINavigationController *navController = (UINavigationController*)segue.destinationViewController;
+        BulkRoutineViewController *controller = (BulkRoutineViewController *)navController.topViewController;
+        controller.enabled = YES;
+    }
+    
         // Get reference to the destination view controller
-        BulkRoutineViewController *vc = [segue destinationViewController];
+      //  BulkRoutineViewController *vc = [segue destinationViewController];
        
-    }
+    
 }
+*/
 
-
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    {
-        BulkRoutineViewController *vc = segue.destinationViewController;
-        vc.someData = data;
-    }
-    */
-    /*if ([segue.identifier isEqualToString:@"bmiBulk"]){
-        BulkRoutineViewController *destinationViewController = [segue destinationViewController];
-        
-       // BulkRoutineViewController *bulk = (BulkRoutineViewController*)segue.destinationViewController;*/
+-(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    BulkRoutineViewController *bulkView = [ segue destinationViewController];
+    bulkView.bulkvv = self.bmivh;
+    NSLog(@"Value sent is %lu", (unsigned long )bulkView.bulkvv);
+    
+}
 
 @end

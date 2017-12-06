@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface BulkRoutineViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UILabel *testLabelBmi;
+//@property (nonatomic, assign)BOOL enabled ;
+@property (weak, nonatomic) IBOutlet UILabel *testBulkLabel;
+@property NSInteger bulkvv;
 
 @end
