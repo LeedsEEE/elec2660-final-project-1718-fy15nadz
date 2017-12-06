@@ -7,6 +7,7 @@
 //
 
 #import "HomeViewController.h"
+//#import "BulkRoutineViewController.h"
 
 @interface HomeViewController () <UITextFieldDelegate>
 
@@ -48,5 +49,29 @@ replacementString:(NSString *)string {
     NSUInteger newLength = [textField.text length] + [string length] - range.length;
     return newLength <= 3;
 }
+
+
+/*- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    // Make sure your segue name in storyboard is the same as this line
+    if ([[segue identifier] isEqualToString:@"bmiBulk"])
+    {
+        // Get reference to the destination view controller
+        BulkRoutineViewController *vc = [segue destinationViewController];
+       
+    }
+}
+
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    {
+        BulkRoutineViewController *vc = segue.destinationViewController;
+        vc.someData = data;
+    }
+    */
+    /*if ([segue.identifier isEqualToString:@"bmiBulk"]){
+        BulkRoutineViewController *destinationViewController = [segue destinationViewController];
+        
+       // BulkRoutineViewController *bulk = (BulkRoutineViewController*)segue.destinationViewController;*/
 
 @end
