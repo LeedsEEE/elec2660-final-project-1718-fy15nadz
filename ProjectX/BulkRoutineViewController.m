@@ -28,6 +28,7 @@
         self.testBulkLabel.text = [NSString stringWithFormat: @"BMI Category UnderWeight"];
         self.textGym.text = [NSString stringWithFormat:@"Your Calculated Bmi shows you are slightly under weight.Therefore you are advised to visit the gym 2-3 times in a week.Spend about 20 - 35 minutes in the gym focusing on light muscle building traning.Keep doing this till your weight improves and make sure your diet is right."];
           self.textDiet.text = [NSString stringWithFormat: @"For your diet eat at least five portions of a variety of fruits and vegetables, drink plenty of fluids,have a lot of carbohydrates in your meals such as rice pasta and milk"];
+        _gymImage.image = [UIImage imageNamed:@"weightgain.png"];
     }
     else if (_bulkvv < 25){
         self.testBulkLabel.text = [NSString stringWithFormat: @"BMI Category Normal (healthy) "];

@@ -14,5 +14,6 @@
 @property NSInteger bulkvv;
 @property (strong, nonatomic) IBOutlet UITextView *textGym;
 @property (strong, nonatomic) IBOutlet UITextView *textDiet;
+@property (strong, nonatomic) IBOutlet UIImageView *gymImage;
 
 @end

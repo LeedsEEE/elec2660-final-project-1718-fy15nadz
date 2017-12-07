@@ -11,7 +11,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--First-->
+        <!--BMi Calc-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="HomeViewController" sceneMemberID="viewController">
@@ -122,7 +122,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="BMi Calc" image="calculator" id="acW-dT-cKf"/>
                     <navigationItem key="navigationItem" id="jJl-uN-OcL"/>
                     <connections>
                         <outlet property="bmiLabel" destination="OXH-wJ-gEl" id="3gd-af-zIW"/>
@@ -160,6 +160,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Y9j-LO-lJJ">
+                                <rect key="frame" x="16" y="478" width="343" height="128"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -168,16 +171,21 @@
                             <constraint firstItem="sL2-Ou-C9w" firstAttribute="leading" secondItem="jqD-Kc-jUa" secondAttribute="leadingMargin" id="IfQ-2Z-mKJ"/>
                             <constraint firstItem="Ksx-6L-AWo" firstAttribute="centerX" secondItem="0dE-gr-7yO" secondAttribute="centerX" id="O6B-bq-wJl"/>
                             <constraint firstItem="hjw-Bd-qv2" firstAttribute="centerX" secondItem="0dE-gr-7yO" secondAttribute="centerX" id="RVU-Ow-5ZA"/>
+                            <constraint firstItem="Y9j-LO-lJJ" firstAttribute="centerX" secondItem="0dE-gr-7yO" secondAttribute="centerX" id="SeG-d6-VQR"/>
+                            <constraint firstItem="0dE-gr-7yO" firstAttribute="trailing" secondItem="Y9j-LO-lJJ" secondAttribute="trailing" constant="16" id="VeV-6M-nk2"/>
                             <constraint firstItem="0dE-gr-7yO" firstAttribute="bottom" secondItem="sL2-Ou-C9w" secondAttribute="bottom" constant="306" id="Xbz-98-e8p"/>
+                            <constraint firstItem="Y9j-LO-lJJ" firstAttribute="top" secondItem="0dE-gr-7yO" secondAttribute="top" constant="414" id="Yqj-9f-DSN"/>
                             <constraint firstItem="sL2-Ou-C9w" firstAttribute="leading" secondItem="hjw-Bd-qv2" secondAttribute="leading" id="Z0O-y5-xm6"/>
                             <constraint firstItem="hjw-Bd-qv2" firstAttribute="top" secondItem="0dE-gr-7yO" secondAttribute="top" constant="27" id="b0I-Bn-5ji"/>
                             <constraint firstItem="sL2-Ou-C9w" firstAttribute="top" secondItem="0dE-gr-7yO" secondAttribute="top" constant="68" id="lAi-3D-SvO"/>
                             <constraint firstItem="Ksx-6L-AWo" firstAttribute="top" secondItem="0dE-gr-7yO" secondAttribute="top" constant="264" id="r61-la-9W7"/>
+                            <constraint firstItem="0dE-gr-7yO" firstAttribute="bottom" secondItem="Y9j-LO-lJJ" secondAttribute="bottom" constant="12" id="rpO-cL-kqp"/>
                             <constraint firstItem="0dE-gr-7yO" firstAttribute="bottom" secondItem="Ksx-6L-AWo" secondAttribute="bottom" constant="148" id="xEo-ff-9ky"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="0dE-gr-7yO"/>
                     </view>
                     <connections>
+                        <outlet property="gymImage" destination="Y9j-LO-lJJ" id="dLn-1Z-GMZ"/>
                         <outlet property="testBulkLabel" destination="hjw-Bd-qv2" id="Yh1-ZD-465"/>
                         <outlet property="textDiet" destination="Ksx-6L-AWo" id="gZa-sg-xu3"/>
                         <outlet property="textGym" destination="sL2-Ou-C9w" id="YLR-HB-zAd"/>
@@ -211,7 +219,7 @@
             </objects>
             <point key="canvasLocation" x="2767" y="-1757"/>
         </scene>
-        <!--Second-->
+        <!--Quiz-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="SecondViewController" sceneMemberID="viewController">
@@ -249,7 +257,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Quiz" image="quiz" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -776,7 +784,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
+        <image name="calculator" width="25" height="25"/>
+        <image name="quiz" width="25" height="25"/>
     </resources>
 </document>
