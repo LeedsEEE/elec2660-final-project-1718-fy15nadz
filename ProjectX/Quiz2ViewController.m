@@ -35,7 +35,7 @@
 */
 
 - (IBAction)quiz2Option1:(id)sender {
-    self.quiz2Label.text = @"Correct! you can proceed to the next question";
+    self.quiz2Label.text = @"Correct!proceed to the next question";
 }
 
 - (IBAction)quiz2option2:(id)sender {

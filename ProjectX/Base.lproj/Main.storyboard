@@ -22,7 +22,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Height :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bWi-LX-xi0">
                                 <rect key="frame" x="56" y="189" width="60" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Height" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="B8l-bx-2lK">
@@ -34,7 +34,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Weight:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CbM-nX-vv6">
                                 <rect key="frame" x="49" y="284" width="67" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Weight" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zHu-bd-Gsh">
@@ -45,7 +45,7 @@
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7gS-6d-unJ">
                                 <rect key="frame" x="166" y="367" width="43" height="30"/>
-                                <color key="backgroundColor" red="0.85681563650000003" green="0.34142248829999999" blue="0.2612550488" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Run">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -56,39 +56,39 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="cm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dlh-EI-yVL">
                                 <rect key="frame" x="247" y="201" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kg" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="80N-O6-55J">
                                 <rect key="frame" x="247" y="284" width="21" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Body Mass Index" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OXH-wJ-gEl">
                                 <rect key="frame" x="16" y="446" width="343" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip Gym" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z7e-ll-MYP">
                                 <rect key="frame" x="130" y="100" width="115" height="35"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x69-ua-Fhh">
                                 <rect key="frame" x="127" y="528" width="121" height="30"/>
-                                <color key="backgroundColor" red="0.436623990047382" green="0.44240394054410109" blue="0.57488495111465454" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.55853426395939088" green="0.082537570324717299" blue="0.026066510796128588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Gym/Diet Routine">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="BQt-Ao-RlQ" kind="show" identifier="bmiBulk" id="0MX-bs-MSP"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.096073655930649482" green="0.16371995158275721" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="7gS-6d-unJ" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" constant="303" id="0KH-dx-Dge"/>
                             <constraint firstItem="OXH-wJ-gEl" firstAttribute="centerX" secondItem="PQr-Ze-W5v" secondAttribute="centerX" id="4CD-iE-gAf"/>
@@ -145,18 +145,20 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hjw-Bd-qv2">
                                 <rect key="frame" x="16" y="91" width="343" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sL2-Ou-C9w">
                                 <rect key="frame" x="16" y="132" width="343" height="180"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.12804762019999999" green="0.2274296992" blue="0.71518083759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ksx-6L-AWo">
                                 <rect key="frame" x="16" y="328" width="343" height="142"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.12804762019999999" green="0.2274296992" blue="0.71518083759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -164,7 +166,7 @@
                                 <rect key="frame" x="16" y="478" width="343" height="128"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.1280476202374228" green="0.22742969915310315" blue="0.71518083756345185" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Ksx-6L-AWo" firstAttribute="leading" secondItem="sL2-Ou-C9w" secondAttribute="leading" id="2jn-01-kU7"/>
                             <constraint firstItem="sL2-Ou-C9w" firstAttribute="centerX" secondItem="0dE-gr-7yO" secondAttribute="centerX" id="5uZ-Ig-csK"/>
@@ -274,7 +276,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="boJ-Ch-kMh">
                                 <rect key="frame" x="141" y="276" width="83" height="30"/>
                                 <state key="normal" title="14kg/m^2">
-                                    <color key="titleColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="0.40896618263111295" blue="0.13235677405346424" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="quiz1Option1:" destination="Qd2-sK-21x" eventType="touchUpInside" id="Ue2-NL-zs5"/>
@@ -283,7 +285,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wya-yB-GyR">
                                 <rect key="frame" x="141" y="330" width="83" height="30"/>
                                 <state key="normal" title="24kgm^2">
-                                    <color key="titleColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="0.40896618260000001" blue="0.13235677409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="quiz1Option2:" destination="Qd2-sK-21x" eventType="touchUpInside" id="tLa-Pu-fae"/>
@@ -292,7 +294,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dqe-AU-WRN">
                                 <rect key="frame" x="141" y="378" width="83" height="30"/>
                                 <state key="normal" title="32kg/m^2">
-                                    <color key="titleColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="0.40896618260000001" blue="0.13235677409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="quiz1Option3:" destination="Qd2-sK-21x" eventType="touchUpInside" id="r3A-a4-BMg"/>
@@ -301,18 +303,21 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Which is a bmi value of an healthy adult?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eib-bd-3Lb">
                                 <rect key="frame" x="16" y="48" width="354" height="74"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lFU-E7-YGU">
                                 <rect key="frame" x="16" y="523" width="343" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ou6-7E-W2V">
                                 <rect key="frame" x="278" y="583" width="32" height="30"/>
-                                <state key="normal" title="Next"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="8aB-X9-MgE" kind="show" id="thy-FT-0vg"/>
                                 </connections>
@@ -320,14 +325,14 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Llq-oL-ii4">
                                 <rect key="frame" x="76" y="428" width="208" height="30"/>
                                 <state key="normal" title="This is a trick question">
-                                    <color key="titleColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="0.40896618260000001" blue="0.13235677409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="quiz1Option4:" destination="Qd2-sK-21x" eventType="touchUpInside" id="4x9-gu-ZlG"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.82642028290000002" green="0.81069100800000005" blue="0.82810833100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.12804762019999999" green="0.2274296992" blue="0.71518083759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="boJ-Ch-kMh" firstAttribute="leading" secondItem="shd-2G-ISy" secondAttribute="leading" constant="141" id="4F1-O2-3zW"/>
                             <constraint firstItem="Eib-bd-3Lb" firstAttribute="top" secondItem="shd-2G-ISy" secondAttribute="top" constant="28" id="4h4-KM-LWR"/>
@@ -376,13 +381,13 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How many times shoul you do to the gym in a week ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eDW-Vq-C9y">
                                 <rect key="frame" x="16" y="36" width="343" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4bQ-nG-Cck">
                                 <rect key="frame" x="153" y="263" width="51" height="30"/>
                                 <state key="normal" title="4 times">
-                                    <color key="titleColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="0.40896618260000001" blue="0.13235677409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="quiz2Option1:" destination="8aB-X9-MgE" eventType="touchUpInside" id="JEY-CY-gUU"/>
@@ -391,7 +396,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ndc-Zz-eK8">
                                 <rect key="frame" x="160" y="318" width="37" height="30"/>
                                 <state key="normal" title="twice">
-                                    <color key="titleColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="0.40896618260000001" blue="0.13235677409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="quiz2option2:" destination="8aB-X9-MgE" eventType="touchUpInside" id="kVR-Js-G3Z"/>
@@ -400,7 +405,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2sb-sH-c0P">
                                 <rect key="frame" x="161" y="364" width="34" height="30"/>
                                 <state key="normal" title="once">
-                                    <color key="titleColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="0.40896618260000001" blue="0.13235677409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="quiz2Option3:" destination="8aB-X9-MgE" eventType="touchUpInside" id="4mA-WT-pea"/>
@@ -409,12 +414,15 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mQc-DD-GuI">
                                 <rect key="frame" x="16" y="504" width="343" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S6s-KM-XVl">
                                 <rect key="frame" x="295" y="584" width="32" height="30"/>
-                                <state key="normal" title="Next"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="SJ8-cL-QMv" kind="show" id="D8Y-RH-ZOJ"/>
                                 </connections>
@@ -422,14 +430,14 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D95-Sg-2Wq">
                                 <rect key="frame" x="80" y="413" width="213" height="30"/>
                                 <state key="normal" title="do not need to go to  the gym">
-                                    <color key="titleColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="0.40896618260000001" blue="0.13235677409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="quiz2Option4:" destination="8aB-X9-MgE" eventType="touchUpInside" id="Xy3-yh-sCC"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.82642028290000002" green="0.81069100800000005" blue="0.82810833100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.12804762019999999" green="0.2274296992" blue="0.71518083759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="D95-Sg-2Wq" firstAttribute="top" secondItem="2sb-sH-c0P" secondAttribute="bottom" constant="19" id="2D3-jy-4bM"/>
                             <constraint firstItem="2sb-sH-c0P" firstAttribute="leading" secondItem="h4i-zh-CUE" secondAttribute="leading" constant="161" id="6Iv-TZ-3CK"/>
@@ -478,27 +486,24 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When shredding you are to eat more carbohydrate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5C3-UP-bQn">
                                 <rect key="frame" x="16" y="43" width="343" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5YE-by-rih">
                                 <rect key="frame" x="235" y="297" width="36" height="30"/>
                                 <state key="normal" title="False">
-                                    <color key="titleColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="0.40896618260000001" blue="0.13235677409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="quiz3Option2:" destination="SJ8-cL-QMv" eventType="touchUpInside" id="9de-V0-ZUq"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gzV-Vn-5Ui">
-                                <rect key="frame" x="16" y="409" width="343" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xBZ-1l-frY">
                                 <rect key="frame" x="300" y="583" width="32" height="30"/>
-                                <state key="normal" title="Next"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="njr-tP-dHM" kind="show" id="UF5-Wm-bNh"/>
                                 </connections>
@@ -506,14 +511,20 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f7O-QW-Czd">
                                 <rect key="frame" x="99" y="297" width="31" height="30"/>
                                 <state key="normal" title="True">
-                                    <color key="titleColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="0.40896618260000001" blue="0.13235677409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="quiz3Option1:" destination="SJ8-cL-QMv" eventType="touchUpInside" id="rj2-vr-qfi"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gzV-Vn-5Ui">
+                                <rect key="frame" x="16" y="451" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.82642028290000002" green="0.81069100800000005" blue="0.82810833100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.12804762019999999" green="0.2274296992" blue="0.71518083759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="n25-8O-EKF" firstAttribute="bottom" secondItem="5YE-by-rih" secondAttribute="bottom" constant="340" id="0uU-NT-xtX"/>
                             <constraint firstItem="n25-8O-EKF" firstAttribute="bottom" secondItem="xBZ-1l-frY" secondAttribute="bottom" constant="54" id="7sA-Mh-PAu"/>
@@ -524,13 +535,13 @@
                             <constraint firstItem="5YE-by-rih" firstAttribute="leading" secondItem="f7O-QW-Czd" secondAttribute="trailing" constant="105" id="TKZ-gf-zzG"/>
                             <constraint firstItem="n25-8O-EKF" firstAttribute="trailing" secondItem="xBZ-1l-frY" secondAttribute="trailing" constant="43" id="Xt4-Oe-10c"/>
                             <constraint firstItem="n25-8O-EKF" firstAttribute="trailing" secondItem="gzV-Vn-5Ui" secondAttribute="trailing" constant="16" id="YNJ-8t-Ccj"/>
-                            <constraint firstItem="gzV-Vn-5Ui" firstAttribute="top" secondItem="n25-8O-EKF" secondAttribute="top" constant="389" id="YQ9-K0-KWC"/>
+                            <constraint firstItem="gzV-Vn-5Ui" firstAttribute="top" secondItem="n25-8O-EKF" secondAttribute="top" constant="431" id="YQ9-K0-KWC"/>
                             <constraint firstItem="n25-8O-EKF" firstAttribute="trailing" secondItem="5YE-by-rih" secondAttribute="trailing" constant="104" id="YtI-qf-762"/>
                             <constraint firstItem="5C3-UP-bQn" firstAttribute="top" secondItem="n25-8O-EKF" secondAttribute="top" constant="23" id="d9H-UY-xXM"/>
                             <constraint firstItem="n25-8O-EKF" firstAttribute="bottom" secondItem="5C3-UP-bQn" secondAttribute="bottom" constant="603" id="eei-bN-sP4"/>
                             <constraint firstItem="n25-8O-EKF" firstAttribute="trailing" secondItem="5C3-UP-bQn" secondAttribute="trailing" constant="16" id="geH-eK-Xba"/>
                             <constraint firstItem="xBZ-1l-frY" firstAttribute="leading" secondItem="gzV-Vn-5Ui" secondAttribute="trailing" constant="-59" id="gn4-aG-LwA"/>
-                            <constraint firstItem="n25-8O-EKF" firstAttribute="bottom" secondItem="gzV-Vn-5Ui" secondAttribute="bottom" constant="237" id="hxu-z1-Edc"/>
+                            <constraint firstItem="n25-8O-EKF" firstAttribute="bottom" secondItem="gzV-Vn-5Ui" secondAttribute="bottom" constant="195" id="hxu-z1-Edc"/>
                             <constraint firstItem="5YE-by-rih" firstAttribute="top" secondItem="n25-8O-EKF" secondAttribute="top" constant="277" id="kPl-gK-RFj"/>
                             <constraint firstItem="xBZ-1l-frY" firstAttribute="leading" secondItem="n25-8O-EKF" secondAttribute="leading" constant="300" id="sYn-mZ-Wtj"/>
                             <constraint firstItem="gzV-Vn-5Ui" firstAttribute="leading" secondItem="n25-8O-EKF" secondAttribute="leading" constant="16" id="uy5-7n-aOe"/>
@@ -555,14 +566,14 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question goes in here" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="beC-KQ-tFq">
                                 <rect key="frame" x="16" y="20" width="343" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k2r-8m-UzE">
                                 <rect key="frame" x="153" y="242" width="57" height="30"/>
                                 <state key="normal" title="Option 1">
-                                    <color key="titleColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="0.40896618260000001" blue="0.13235677409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="quiz4Option1:" destination="njr-tP-dHM" eventType="touchUpInside" id="BwS-Gx-VMP"/>
@@ -571,7 +582,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aBf-fG-equ">
                                 <rect key="frame" x="152" y="290" width="59" height="30"/>
                                 <state key="normal" title="Option 2">
-                                    <color key="titleColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="0.40896618260000001" blue="0.13235677409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="quiz4Option2:" destination="njr-tP-dHM" eventType="touchUpInside" id="CPb-r7-Dvs"/>
@@ -580,7 +591,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gwd-D4-Pdi">
                                 <rect key="frame" x="151" y="345" width="60" height="30"/>
                                 <state key="normal" title="Option 3">
-                                    <color key="titleColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="0.40896618260000001" blue="0.13235677409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="quiz4Option3:" destination="njr-tP-dHM" eventType="touchUpInside" id="s8P-Ey-xrC"/>
@@ -589,7 +600,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="af3-Mj-Av9">
                                 <rect key="frame" x="151" y="400" width="60" height="30"/>
                                 <state key="normal" title="Option 4">
-                                    <color key="titleColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="0.40896618260000001" blue="0.13235677409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="quiz4Option4:" destination="njr-tP-dHM" eventType="touchUpInside" id="b1r-VK-nfQ"/>
@@ -598,18 +609,21 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h99-dw-RZB">
                                 <rect key="frame" x="16" y="493" width="343" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJF-eX-Hxv">
                                 <rect key="frame" x="300" y="601" width="32" height="30"/>
-                                <state key="normal" title="Next"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="nx3-ba-lDz" kind="show" id="1pE-es-5XE"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.82642028290000002" green="0.81069100800000005" blue="0.82810833100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.12804762019999999" green="0.2274296992" blue="0.71518083759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Gwd-D4-Pdi" firstAttribute="leading" secondItem="fOY-LP-o8m" secondAttribute="leading" constant="151" id="02q-YI-YXX"/>
                             <constraint firstItem="sJF-eX-Hxv" firstAttribute="leading" secondItem="fOY-LP-o8m" secondAttribute="leading" constant="300" id="3AN-M4-Vkj"/>
@@ -657,13 +671,13 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question goes in here" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KTs-bf-yhi">
                                 <rect key="frame" x="16" y="20" width="343" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hm6-Il-UvC">
                                 <rect key="frame" x="150" y="230" width="57" height="30"/>
                                 <state key="normal" title="Option 1">
-                                    <color key="titleColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="0.40896618260000001" blue="0.13235677409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="quiz5Option1:" destination="nx3-ba-lDz" eventType="touchUpInside" id="0rb-VI-jfs"/>
@@ -672,7 +686,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gHi-Wt-Dtp">
                                 <rect key="frame" x="150" y="282" width="57" height="30"/>
                                 <state key="normal" title="option 2">
-                                    <color key="titleColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="0.40896618260000001" blue="0.13235677409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="quiz5Option2:" destination="nx3-ba-lDz" eventType="touchUpInside" id="jvr-P9-MlS"/>
@@ -681,7 +695,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cQX-Qr-IB0">
                                 <rect key="frame" x="150" y="382" width="57" height="30"/>
                                 <state key="normal" title="option 4">
-                                    <color key="titleColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="0.40896618260000001" blue="0.13235677409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="Quiz5option4:" destination="nx3-ba-lDz" eventType="touchUpInside" id="3z1-YW-sf6"/>
@@ -690,13 +704,13 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zrU-60-0fK">
                                 <rect key="frame" x="16" y="472" width="343" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mBg-8h-iCW">
                                 <rect key="frame" x="150" y="330" width="57" height="30"/>
                                 <state key="normal" title="option 3">
-                                    <color key="titleColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="0.40896618260000001" blue="0.13235677409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="quiz5Option3:" destination="nx3-ba-lDz" eventType="touchUpInside" id="iax-At-3Pm"/>
@@ -704,13 +718,16 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ze6-Vd-lDd">
                                 <rect key="frame" x="275" y="593" width="58" height="30"/>
-                                <state key="normal" title="Finished"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Finished">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="49e-Tb-3d3" kind="show" id="7Lw-Kp-SRm"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.82642028290000002" green="0.81069100800000005" blue="0.82810833100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.12804762019999999" green="0.2274296992" blue="0.71518083759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="vC8-GS-X79" firstAttribute="trailing" secondItem="Hm6-Il-UvC" secondAttribute="trailing" constant="168" id="02i-2T-kni"/>
                             <constraint firstItem="vC8-GS-X79" firstAttribute="trailing" secondItem="mBg-8h-iCW" secondAttribute="trailing" constant="168" id="5Bm-JL-C7a"/>
