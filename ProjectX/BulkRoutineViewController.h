@@ -12,5 +12,7 @@
 //@property (nonatomic, assign)BOOL enabled ;
 @property (weak, nonatomic) IBOutlet UILabel *testBulkLabel;
 @property NSInteger bulkvv;
+@property (strong, nonatomic) IBOutlet UITextView *textGym;
+@property (strong, nonatomic) IBOutlet UITextView *textDiet;
 
 @end

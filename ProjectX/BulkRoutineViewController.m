@@ -17,8 +17,26 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    if (_bulkvv > 15 ){
-        self.testBulkLabel.text = [NSString stringWithFormat: @"workinggggg!!!!!!!"];
+    if (_bulkvv <15.5 ){
+        self.testBulkLabel.text = [NSString stringWithFormat: @"BMI Category Very Severly UnderWeight "];
+        self.textGym.text = [NSString stringWithFormat:@"Your calculated BMI shows you are severly underweight. Therefore you are adviced not to start going to the gym till your weight has significantly improved "];
+        self.textDiet.text = [NSString stringWithFormat: @"For your diet Eat at least five portions of a variety of fruits and vegetables"];
+    }
+    else if (_bulkvv < 18.5){
+        self.testBulkLabel.text = [NSString stringWithFormat: @"BMI Category UnderWeight (16)"];
+        self.textGym.text = [NSString stringWithFormat:@"test"];
+    }
+    else if (_bulkvv < 25){
+        self.testBulkLabel.text = [NSString stringWithFormat: @"BMI Category Normal (healthy) (16)"];
+        self.textGym.text = [NSString stringWithFormat:@"test"];
+    }
+    else if (_bulkvv < 30){
+        self.testBulkLabel.text = [NSString stringWithFormat: @"BMI Category Overweight (16)"];
+        self.textGym.text = [NSString stringWithFormat:@"test"];
+    }
+    else if (_bulkvv > 30){
+        self.testBulkLabel.text = [NSString stringWithFormat: @"BMI Category obese (16)"];
+        self.textGym.text = [NSString stringWithFormat:@"test"];
     }
 
 }
