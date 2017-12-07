@@ -162,8 +162,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Y9j-LO-lJJ">
-                                <rect key="frame" x="16" y="478" width="343" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="weightgain.png" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y9j-LO-lJJ">
+                                <rect key="frame" x="16" y="503" width="343" height="103"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.1280476202374228" green="0.22742969915310315" blue="0.71518083756345185" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -176,7 +176,7 @@
                             <constraint firstItem="Y9j-LO-lJJ" firstAttribute="centerX" secondItem="0dE-gr-7yO" secondAttribute="centerX" id="SeG-d6-VQR"/>
                             <constraint firstItem="0dE-gr-7yO" firstAttribute="trailing" secondItem="Y9j-LO-lJJ" secondAttribute="trailing" constant="16" id="VeV-6M-nk2"/>
                             <constraint firstItem="0dE-gr-7yO" firstAttribute="bottom" secondItem="sL2-Ou-C9w" secondAttribute="bottom" constant="306" id="Xbz-98-e8p"/>
-                            <constraint firstItem="Y9j-LO-lJJ" firstAttribute="top" secondItem="0dE-gr-7yO" secondAttribute="top" constant="414" id="Yqj-9f-DSN"/>
+                            <constraint firstItem="Y9j-LO-lJJ" firstAttribute="top" secondItem="0dE-gr-7yO" secondAttribute="top" constant="439" id="Yqj-9f-DSN"/>
                             <constraint firstItem="sL2-Ou-C9w" firstAttribute="leading" secondItem="hjw-Bd-qv2" secondAttribute="leading" id="Z0O-y5-xm6"/>
                             <constraint firstItem="hjw-Bd-qv2" firstAttribute="top" secondItem="0dE-gr-7yO" secondAttribute="top" constant="27" id="b0I-Bn-5ji"/>
                             <constraint firstItem="sL2-Ou-C9w" firstAttribute="top" secondItem="0dE-gr-7yO" secondAttribute="top" constant="68" id="lAi-3D-SvO"/>
@@ -803,5 +803,6 @@
     <resources>
         <image name="calculator" width="25" height="25"/>
         <image name="quiz" width="25" height="25"/>
+        <image name="weightgain.png" width="640" height="426"/>
     </resources>
 </document>
