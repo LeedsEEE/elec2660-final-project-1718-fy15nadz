@@ -162,8 +162,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="weightgain.png" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y9j-LO-lJJ">
-                                <rect key="frame" x="16" y="503" width="343" height="103"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y9j-LO-lJJ">
+                                <rect key="frame" x="16" y="489" width="343" height="117"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.1280476202374228" green="0.22742969915310315" blue="0.71518083756345185" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -176,7 +176,7 @@
                             <constraint firstItem="Y9j-LO-lJJ" firstAttribute="centerX" secondItem="0dE-gr-7yO" secondAttribute="centerX" id="SeG-d6-VQR"/>
                             <constraint firstItem="0dE-gr-7yO" firstAttribute="trailing" secondItem="Y9j-LO-lJJ" secondAttribute="trailing" constant="16" id="VeV-6M-nk2"/>
                             <constraint firstItem="0dE-gr-7yO" firstAttribute="bottom" secondItem="sL2-Ou-C9w" secondAttribute="bottom" constant="306" id="Xbz-98-e8p"/>
-                            <constraint firstItem="Y9j-LO-lJJ" firstAttribute="top" secondItem="0dE-gr-7yO" secondAttribute="top" constant="439" id="Yqj-9f-DSN"/>
+                            <constraint firstItem="Y9j-LO-lJJ" firstAttribute="top" secondItem="0dE-gr-7yO" secondAttribute="top" constant="425" id="Yqj-9f-DSN"/>
                             <constraint firstItem="sL2-Ou-C9w" firstAttribute="leading" secondItem="hjw-Bd-qv2" secondAttribute="leading" id="Z0O-y5-xm6"/>
                             <constraint firstItem="hjw-Bd-qv2" firstAttribute="top" secondItem="0dE-gr-7yO" secondAttribute="top" constant="27" id="b0I-Bn-5ji"/>
                             <constraint firstItem="sL2-Ou-C9w" firstAttribute="top" secondItem="0dE-gr-7yO" secondAttribute="top" constant="68" id="lAi-3D-SvO"/>
@@ -229,33 +229,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ready for the challenge ??" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sK4-dD-Eqq">
-                                <rect key="frame" x="16" y="62" width="343" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Ready for the challenge ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UPp-Jj-fue">
+                                <rect key="frame" x="16" y="49" width="343" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nqi-Q4-RDO">
-                                <rect key="frame" x="91" y="321" width="177" height="60"/>
-                                <color key="backgroundColor" red="0.24887648499599291" green="0.36919516378597256" blue="0.47073286802030456" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nqi-Q4-RDO">
+                                <rect key="frame" x="99" y="428" width="177" height="60"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Hit Me!">
-                                    <color key="titleColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="Qd2-sK-21x" kind="show" id="MRP-jS-1mc"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.82642028290000002" green="0.81069100800000005" blue="0.82810833100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.12804762019999999" green="0.2274296992" blue="0.71518083759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="sK4-dD-Eqq" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" constant="42" id="6Fe-4t-cxJ"/>
-                            <constraint firstItem="nqi-Q4-RDO" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" constant="301" id="KCd-Fd-yKV"/>
-                            <constraint firstItem="sK4-dD-Eqq" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="16" id="Q2g-Yg-dmn"/>
-                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="nqi-Q4-RDO" secondAttribute="trailing" constant="107" id="TSV-9K-Nhd"/>
-                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="sK4-dD-Eqq" secondAttribute="trailing" constant="16" id="XNW-x5-h5e"/>
-                            <constraint firstItem="O1u-W8-tvY" firstAttribute="bottom" secondItem="sK4-dD-Eqq" secondAttribute="bottom" constant="564" id="cDg-PW-6cM"/>
-                            <constraint firstItem="nqi-Q4-RDO" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="91" id="evk-9A-6Sl"/>
-                            <constraint firstItem="O1u-W8-tvY" firstAttribute="bottom" secondItem="nqi-Q4-RDO" secondAttribute="bottom" constant="237" id="qgx-iL-maR"/>
+                            <constraint firstItem="UPp-Jj-fue" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" constant="29" id="6ge-BE-9WQ"/>
+                            <constraint firstItem="UPp-Jj-fue" firstAttribute="centerX" secondItem="O1u-W8-tvY" secondAttribute="centerX" id="HFf-th-r9K"/>
+                            <constraint firstItem="nqi-Q4-RDO" firstAttribute="centerX" secondItem="O1u-W8-tvY" secondAttribute="centerX" id="KLM-Of-P9M"/>
+                            <constraint firstItem="nqi-Q4-RDO" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" constant="408" id="ZgJ-k9-csB"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
@@ -803,6 +799,5 @@
     <resources>
         <image name="calculator" width="25" height="25"/>
         <image name="quiz" width="25" height="25"/>
-        <image name="weightgain.png" width="640" height="426"/>
     </resources>
 </document>

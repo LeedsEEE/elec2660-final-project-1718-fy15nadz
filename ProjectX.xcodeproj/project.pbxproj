@@ -18,7 +18,6 @@
 		2ABE5F911FC30ADA00C6E68D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABE5F901FC30ADA00C6E68D /* HomeViewController.m */; };
 		2ABE5F941FC30ADA00C6E68D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABE5F931FC30ADA00C6E68D /* SecondViewController.m */; };
 		2ABE5F971FC30ADA00C6E68D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ABE5F951FC30ADA00C6E68D /* Main.storyboard */; };
-		2ABE5F991FC30ADA00C6E68D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ABE5F981FC30ADA00C6E68D /* Assets.xcassets */; };
 		2ABE5F9C1FC30ADA00C6E68D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ABE5F9A1FC30ADA00C6E68D /* LaunchScreen.storyboard */; };
 		2ABE5F9F1FC30ADA00C6E68D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABE5F9E1FC30ADA00C6E68D /* main.m */; };
 		2ABE5FA91FC30ADA00C6E68D /* ProjectXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABE5FA81FC30ADA00C6E68D /* ProjectXTests.m */; };
@@ -43,9 +42,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2A77785F1FD9D5F800207169 /* healthy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = healthy.jpg; sourceTree = "<group>"; };
-		2A7778601FD9D5FC00207169 /* weightgain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weightgain.png; sourceTree = "<group>"; };
-		2A7778611FD9D5FF00207169 /* obese.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = obese.jpg; sourceTree = "<group>"; };
 		2A7C43851FD57D6D00AA49F5 /* BulkRoutineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BulkRoutineViewController.h; sourceTree = "<group>"; };
 		2A7C43861FD57D6D00AA49F5 /* BulkRoutineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BulkRoutineViewController.m; sourceTree = "<group>"; };
 		2A7C438B1FD5F7B900AA49F5 /* Quiz1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz1ViewController.h; sourceTree = "<group>"; };
@@ -67,7 +63,6 @@
 		2ABE5F921FC30ADA00C6E68D /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		2ABE5F931FC30ADA00C6E68D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		2ABE5F961FC30ADA00C6E68D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2ABE5F981FC30ADA00C6E68D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2ABE5F9B1FC30ADA00C6E68D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2ABE5F9D1FC30ADA00C6E68D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2ABE5F9E1FC30ADA00C6E68D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -147,10 +142,6 @@
 				2A7C43A61FD61ACA00AA49F5 /* Quiz5ViewController.h */,
 				2A7C43A71FD61ACA00AA49F5 /* Quiz5ViewController.m */,
 				2A9542AE1FD8E3E300CE6A05 /* icons */,
-				2ABE5F981FC30ADA00C6E68D /* Assets.xcassets */,
-				2A7778611FD9D5FF00207169 /* obese.jpg */,
-				2A7778601FD9D5FC00207169 /* weightgain.png */,
-				2A77785F1FD9D5F800207169 /* healthy.jpg */,
 				2ABE5F9A1FC30ADA00C6E68D /* LaunchScreen.storyboard */,
 				2ABE5F9D1FC30ADA00C6E68D /* Info.plist */,
 				2ABE5F9E1FC30ADA00C6E68D /* main.m */,
@@ -284,7 +275,6 @@
 			files = (
 				2ABE5F9C1FC30ADA00C6E68D /* LaunchScreen.storyboard in Resources */,
 				2A9542AF1FD8E3E300CE6A05 /* icons in Resources */,
-				2ABE5F991FC30ADA00C6E68D /* Assets.xcassets in Resources */,
 				2ABE5F971FC30ADA00C6E68D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
