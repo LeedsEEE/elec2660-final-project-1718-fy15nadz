@@ -197,30 +197,6 @@
             </objects>
             <point key="canvasLocation" x="1672.8" y="-995.35232383808102"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="2B2-cL-zEs">
-            <objects>
-                <viewController id="H7p-zt-nd0" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="cYz-q1-r1a">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bulking Gym Routine and Diet Advice" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D8J-64-1fT">
-                                <rect key="frame" x="47" y="81" width="284" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <viewLayoutGuide key="safeArea" id="Dou-rV-T4D"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="j6c-fm-eov" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2767" y="-1757"/>
-        </scene>
         <!--Quiz-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
@@ -268,6 +244,85 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-34.399999999999999" y="397.15142428785612"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="4mY-NV-Ftt">
+            <objects>
+                <viewController id="y7B-qg-0g8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="c9V-7m-MUf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Guide" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JuT-Jz-hOR">
+                                <rect key="frame" x="137" y="42" width="102" height="26"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="This app aims to give the assist the user in chocies while going to the the gym" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ncp-5R-40l">
+                                <rect key="frame" x="16" y="96" width="343" height="59"/>
+                                <color key="backgroundColor" red="0.096073655930000001" green="0.1637199516" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="Ubj-vI-eNs"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="1.   Firstly Input your height and weight on the home page and then press the button run button to calculate your bmi." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4W2-Kg-OsH">
+                                <rect key="frame" x="16" y="203" width="343" height="73"/>
+                                <color key="backgroundColor" red="0.096073655930000001" green="0.1637199516" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1Iz-7Q-jRe">
+                                <rect key="frame" x="16" y="285" width="343" height="96"/>
+                                <color key="backgroundColor" red="0.096073655930000001" green="0.1637199516" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">2.  When your Bmi is displayed press the "Gym/Diet routine" button to reveal the gym and diet  advice for your specific BMI value calculated. </string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ilg-g7-c2o">
+                                <rect key="frame" x="16" y="397" width="343" height="162"/>
+                                <color key="backgroundColor" red="0.096073655930000001" green="0.1637199516" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">3.  After seeing your advice go back to the hompage by pressing the "back" button to  Switch to the second tab called quiz to challenge yourself on your knowlege of the gym and also update your self on gym myths.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.096073655930000001" green="0.1637199516" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ncp-5R-40l" firstAttribute="centerX" secondItem="bOA-nt-kgu" secondAttribute="centerX" id="0E8-LY-adc"/>
+                            <constraint firstItem="ncp-5R-40l" firstAttribute="trailing" secondItem="4W2-Kg-OsH" secondAttribute="trailing" id="0TD-DO-G7f"/>
+                            <constraint firstItem="4W2-Kg-OsH" firstAttribute="top" secondItem="ncp-5R-40l" secondAttribute="bottom" constant="48" id="1Ge-OM-jA2"/>
+                            <constraint firstItem="ilg-g7-c2o" firstAttribute="top" secondItem="bOA-nt-kgu" secondAttribute="top" constant="377" id="23q-xy-Gaa"/>
+                            <constraint firstItem="bOA-nt-kgu" firstAttribute="bottom" secondItem="1Iz-7Q-jRe" secondAttribute="bottom" constant="237" id="Ayi-gJ-j3j"/>
+                            <constraint firstItem="JuT-Jz-hOR" firstAttribute="top" secondItem="bOA-nt-kgu" secondAttribute="top" constant="22" id="F2S-Le-KNj"/>
+                            <constraint firstItem="bOA-nt-kgu" firstAttribute="bottom" secondItem="ilg-g7-c2o" secondAttribute="bottom" constant="59" id="H5g-dy-4lB"/>
+                            <constraint firstItem="4W2-Kg-OsH" firstAttribute="centerX" secondItem="bOA-nt-kgu" secondAttribute="centerX" id="KHc-SU-p6B"/>
+                            <constraint firstItem="1Iz-7Q-jRe" firstAttribute="centerX" secondItem="bOA-nt-kgu" secondAttribute="centerX" id="LVP-7K-nlG"/>
+                            <constraint firstItem="ncp-5R-40l" firstAttribute="leading" secondItem="4W2-Kg-OsH" secondAttribute="leading" id="Nmt-8R-EdI"/>
+                            <constraint firstItem="1Iz-7Q-jRe" firstAttribute="leading" secondItem="4W2-Kg-OsH" secondAttribute="leading" id="O7h-y7-AqB"/>
+                            <constraint firstItem="1Iz-7Q-jRe" firstAttribute="top" secondItem="bOA-nt-kgu" secondAttribute="top" constant="265" id="QZA-Hp-dYQ"/>
+                            <constraint firstItem="1Iz-7Q-jRe" firstAttribute="top" secondItem="4W2-Kg-OsH" secondAttribute="bottom" constant="9" id="RG1-2h-gUF"/>
+                            <constraint firstItem="bOA-nt-kgu" firstAttribute="bottom" secondItem="4W2-Kg-OsH" secondAttribute="bottom" constant="342" id="Uh2-G6-JED"/>
+                            <constraint firstItem="JuT-Jz-hOR" firstAttribute="centerX" secondItem="bOA-nt-kgu" secondAttribute="centerX" id="X7E-MH-71x"/>
+                            <constraint firstItem="ilg-g7-c2o" firstAttribute="centerX" secondItem="bOA-nt-kgu" secondAttribute="centerX" id="ncI-bG-nU1"/>
+                            <constraint firstItem="ilg-g7-c2o" firstAttribute="leading" secondItem="1Iz-7Q-jRe" secondAttribute="leading" id="oWp-1l-wbi"/>
+                            <constraint firstItem="ncp-5R-40l" firstAttribute="top" secondItem="bOA-nt-kgu" secondAttribute="top" constant="76" id="qhY-zI-gZ7"/>
+                            <constraint firstItem="4W2-Kg-OsH" firstAttribute="top" secondItem="bOA-nt-kgu" secondAttribute="top" constant="183" id="t5H-Za-2EY"/>
+                            <constraint firstItem="ncp-5R-40l" firstAttribute="leading" secondItem="c9V-7m-MUf" secondAttribute="leadingMargin" id="xME-qe-gOD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bOA-nt-kgu"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="MQ7-d6-nJy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UP9-H6-TRu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-34.399999999999999" y="1173.4632683658172"/>
         </scene>
         <!--Quiz1 View Controller-->
         <scene sceneID="cNF-QW-rJT">
@@ -790,6 +845,7 @@
                     <connections>
                         <segue destination="9tp-Xc-KaJ" kind="relationship" relationship="viewControllers" id="SXd-aD-LwN"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="y7B-qg-0g8" kind="relationship" relationship="viewControllers" id="Usx-jt-EfI"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
