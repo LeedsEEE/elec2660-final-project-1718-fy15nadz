@@ -18,6 +18,7 @@
 		2A9542AF1FD8E3E300CE6A05 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 2A9542AE1FD8E3E300CE6A05 /* icons */; };
 		2AA6E1521FDAAFA7002F2A62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AA6E1511FDAADF9002F2A62 /* Assets.xcassets */; };
 		2AA6E1551FDABBE0002F2A62 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6E1541FDABBE0002F2A62 /* MapViewController.m */; };
+		2AA6E1581FDAD5AC002F2A62 /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6E1571FDAD5AC002F2A62 /* MapPin.m */; };
 		2ABE5F8E1FC30ADA00C6E68D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABE5F8D1FC30ADA00C6E68D /* AppDelegate.m */; };
 		2ABE5F911FC30ADA00C6E68D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABE5F901FC30ADA00C6E68D /* HomeViewController.m */; };
 		2ABE5F941FC30ADA00C6E68D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABE5F931FC30ADA00C6E68D /* SecondViewController.m */; };
@@ -64,6 +65,8 @@
 		2AA6E1511FDAADF9002F2A62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AA6E1531FDABBE0002F2A62 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		2AA6E1541FDABBE0002F2A62 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		2AA6E1561FDAD5AC002F2A62 /* MapPin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapPin.h; sourceTree = "<group>"; };
+		2AA6E1571FDAD5AC002F2A62 /* MapPin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
 		2ABE5F891FC30ADA00C6E68D /* ProjectX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ABE5F8C1FC30ADA00C6E68D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2ABE5F8D1FC30ADA00C6E68D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -153,6 +156,8 @@
 				2A7C43861FD57D6D00AA49F5 /* BulkRoutineViewController.m */,
 				2AA6E1531FDABBE0002F2A62 /* MapViewController.h */,
 				2AA6E1541FDABBE0002F2A62 /* MapViewController.m */,
+				2AA6E1561FDAD5AC002F2A62 /* MapPin.h */,
+				2AA6E1571FDAD5AC002F2A62 /* MapPin.m */,
 				2ABE5F951FC30ADA00C6E68D /* Main.storyboard */,
 				2A7C438B1FD5F7B900AA49F5 /* Quiz1ViewController.h */,
 				2A7C438C1FD5F7B900AA49F5 /* Quiz1ViewController.m */,
@@ -325,6 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AA6E1581FDAD5AC002F2A62 /* MapPin.m in Sources */,
 				2ABE5F941FC30ADA00C6E68D /* SecondViewController.m in Sources */,
 				2A7C43A51FD615D800AA49F5 /* Quiz4ViewController.m in Sources */,
 				2A7C43A81FD61ACA00AA49F5 /* Quiz5ViewController.m in Sources */,

@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
-#import <CoreLocation/CoreLocation.h>
+#import "MapPin.h"
+#import <MapKit/MKAnnotation.h>
+//#import <CoreLocation/CoreLocation.h>
 
 @interface MapViewController : UIViewController <MKMapViewDelegate,CLLocationManagerDelegate>{
     MKMapView *mapV;
