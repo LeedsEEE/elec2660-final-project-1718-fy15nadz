@@ -34,6 +34,8 @@
 }
 */
 
+
+// Below are action buttons which will display a text when pressed
 - (IBAction)quiz2Option1:(id)sender {
     self.quiz2Label.text = @"Correct!proceed to the next question";
 }

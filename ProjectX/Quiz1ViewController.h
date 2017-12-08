@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface Quiz1ViewController : UIViewController
+
+// the quiz buttons
 - (IBAction)quiz1Option1:(id)sender;
 - (IBAction)quiz1Option2:(id)sender;
 - (IBAction)quiz1Option3:(id)sender;
@@ -16,5 +18,5 @@
 
 
 
-@property (weak, nonatomic) IBOutlet UILabel *quiz1Label;
+@property (weak, nonatomic) IBOutlet UILabel *quiz1Label; // the info label
 @end

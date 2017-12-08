@@ -23,20 +23,22 @@
     
 }
 
-
+// below is the code which acts when the run butten is pressed
 
 - (IBAction)runButton:(id)sender {
     float h = [_heightText.text floatValue];
      // converting the the height value in the texfield from cm to m
     //in oder to calculate the bmi in the appropraiate unit
-    float hh = h/100;
+    float hh = h/100; // here the unit of the height is converted to m for the calculation of the bmi in appropriate units.
     float w = [_weightText.text floatValue]; // converting the content of the textfield to float
     float bmiV = w/(hh*hh);// formular to calculate bmi
-    _bmivh = bmiV;
+    _bmivh = bmiV;// linking the property to the bmi value to be sennt to the bulkRoutineViewController;
+    
+    // line to initiate the display of the bmi value.
     self.bmiLabel.text = [NSString stringWithFormat:@"Body Mass Index = %.2f kg/m^2" , bmiV];
 }
 //below using buit in function in order to limit number of characters in each text field.
-// the code was gotten online from stackowerflow.com
+// the code was gotten online from stackowerflow.com https://stackoverflow.com/questions/433337/set-the-maximum-character-length-of-a-uitextfield
 
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range
 replacementString:(NSString *)string {
@@ -67,11 +69,10 @@ replacementString:(NSString *)string {
     
 }
 */
-
+// The below code is used to send the bmi value from  this view controller to the bulkRoutineViewController
 -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     BulkRoutineViewController *bulkView = [ segue destinationViewController];
     bulkView.bulkvv = self.bmivh;
-    NSLog(@"Value sent is %lu", (unsigned long )bulkView.bulkvv);
     
 }
 

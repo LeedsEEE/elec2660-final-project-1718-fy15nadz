@@ -34,6 +34,8 @@
 }
 */
 
+
+// Below are action buttons which will display a text when pressed
 - (IBAction)quiz5Option1:(id)sender {
     self.quiz5Label.text = @"sorry wrong please try again";
 }

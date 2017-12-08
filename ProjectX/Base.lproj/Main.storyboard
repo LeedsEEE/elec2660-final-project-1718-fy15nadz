@@ -221,7 +221,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8q1-5f-cFb">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rubik" translatesAutoresizingMaskIntoConstraints="NO" id="8q1-5f-cFb">
                                 <rect key="frame" x="47" y="124" width="281" height="227"/>
                             </imageView>
                         </subviews>
@@ -538,6 +538,59 @@
             </objects>
             <point key="canvasLocation" x="1484" y="400.74962518740631"/>
         </scene>
+        <!--Item-->
+        <scene sceneID="KAc-xs-UDY">
+            <objects>
+                <viewController id="Bo9-m3-PjD" customClass="MapViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KaU-BK-dE4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="11U-NK-klS">
+                                <rect key="frame" x="0.0" y="20" width="375" height="554"/>
+                            </mapView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bkE-MG-at9">
+                                <rect key="frame" x="0.0" y="574" width="375" height="44"/>
+                                <items/>
+                            </toolbar>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Eqj-wq-BeI">
+                                <rect key="frame" x="16" y="582" width="335" height="29"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <segments>
+                                    <segment title="Standard View"/>
+                                    <segment title="Satellite View"/>
+                                    <segment title="HybridView"/>
+                                </segments>
+                                <connections>
+                                    <action selector="switchMap:" destination="Bo9-m3-PjD" eventType="valueChanged" id="HZh-2Q-3qp"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" red="0.096073655930000001" green="0.1637199516" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="11U-NK-klS" firstAttribute="centerX" secondItem="nIl-Sb-1X1" secondAttribute="centerX" id="52H-2C-Nwp"/>
+                            <constraint firstItem="nIl-Sb-1X1" firstAttribute="trailing" secondItem="11U-NK-klS" secondAttribute="trailing" id="7Sn-Cg-f91"/>
+                            <constraint firstItem="Eqj-wq-BeI" firstAttribute="top" secondItem="11U-NK-klS" secondAttribute="bottom" constant="8" id="KXF-Bc-Drt"/>
+                            <constraint firstItem="nIl-Sb-1X1" firstAttribute="bottom" secondItem="11U-NK-klS" secondAttribute="bottom" constant="44" id="NQy-vY-4mh"/>
+                            <constraint firstItem="11U-NK-klS" firstAttribute="top" secondItem="nIl-Sb-1X1" secondAttribute="top" id="dRl-Ny-eZO"/>
+                            <constraint firstItem="bkE-MG-at9" firstAttribute="top" secondItem="11U-NK-klS" secondAttribute="bottom" id="ejK-0l-pi2"/>
+                            <constraint firstItem="nIl-Sb-1X1" firstAttribute="trailing" secondItem="bkE-MG-at9" secondAttribute="trailing" id="fbw-rE-Y04"/>
+                            <constraint firstItem="bkE-MG-at9" firstAttribute="leading" secondItem="nIl-Sb-1X1" secondAttribute="leading" id="gua-a2-EAE"/>
+                            <constraint firstItem="bkE-MG-at9" firstAttribute="centerX" secondItem="nIl-Sb-1X1" secondAttribute="centerX" id="wLb-bv-jxM"/>
+                            <constraint firstItem="11U-NK-klS" firstAttribute="leading" secondItem="nIl-Sb-1X1" secondAttribute="leading" id="xT7-tH-m77"/>
+                            <constraint firstItem="Eqj-wq-BeI" firstAttribute="centerY" secondItem="bkE-MG-at9" secondAttribute="centerY" id="yFu-UE-ejV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="nIl-Sb-1X1"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="8md-ec-Pam"/>
+                    <connections>
+                        <outlet property="mapV" destination="11U-NK-klS" id="zcC-9M-mBs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KLP-zf-v28" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-810.39999999999998" y="1105.9970014992505"/>
+        </scene>
         <!--Quiz3 View Controller-->
         <scene sceneID="hit-xV-oH5">
             <objects>
@@ -846,6 +899,7 @@
                         <segue destination="9tp-Xc-KaJ" kind="relationship" relationship="viewControllers" id="SXd-aD-LwN"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue destination="y7B-qg-0g8" kind="relationship" relationship="viewControllers" id="Usx-jt-EfI"/>
+                        <segue destination="Bo9-m3-PjD" kind="relationship" relationship="viewControllers" id="d1B-Fp-amk"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
@@ -857,5 +911,6 @@
         <image name="Guideicon" width="25" height="25"/>
         <image name="calculator" width="25" height="25"/>
         <image name="quiz" width="25" height="25"/>
+        <image name="rubik" width="240" height="265"/>
     </resources>
 </document>

@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    // Below is a series of code which is used to display differnt gym/diet advice depending on the bmi range
+    // The image displyed also sometimes varies.
+    
     if (_bulkvv <15.5 ){
         self.testBulkLabel.text = [NSString stringWithFormat: @"BMI Category Very Severly UnderWeight "];
         self.textGym.text = [NSString stringWithFormat:@"Your calculated BMI shows you are severly underweight. Therefore you are adviced not to start going to the gym till your weight has significantly improved "];
@@ -52,6 +55,8 @@
         self.textGym.text = [NSString stringWithFormat:@"Based on your BMI Category you are obesed therefore you are advised to take a morning jog everyday,visit the gym 4 times a week,work on calories reducing traning in the gym such as treadmill, spin bike, stair mill, rowing machine and gym bike. You could also see a doctor or health advisor for further help. "];
         self.textDiet.text = [NSString stringWithFormat: @"For your diet  eat a lot of proteins such as chicken, fish.Cut down you consumption of alcohol and sugary drinks, aslo cut down you how much carbohydrates you take.Visit a nutritionist for further help."];
         _gymImage.image = [UIImage imageNamed:@"obese.jpg"];// picture reference https://www.shutterstock.com/image-vector/motivational-inspirational-typography-poster-quote-you-331717430?src=wROFjV_4Ph-xAKkr55Z0RA-1-35
+        
+        // The code above was added because there was no information displayed when the caculated bmi value was between 30and 31.
         
     }
     

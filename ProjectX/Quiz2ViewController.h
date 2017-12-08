@@ -9,12 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface Quiz2ViewController : UIViewController
+
+// the quiz buttons
 - (IBAction)quiz2Option1:(id)sender;
 - (IBAction)quiz2option2:(id)sender;
 - (IBAction)quiz2Option3:(id)sender;
 - (IBAction)quiz2Option4:(id)sender;
 
 
-@property (weak, nonatomic) IBOutlet UILabel *quiz2Label;
+@property (weak, nonatomic) IBOutlet UILabel *quiz2Label; // the info label
 
 @end

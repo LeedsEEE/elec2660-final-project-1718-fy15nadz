@@ -10,10 +10,14 @@
 
 @interface BulkRoutineViewController : UIViewController
 //@property (nonatomic, assign)BOOL enabled ;
+
+
 @property (weak, nonatomic) IBOutlet UILabel *testBulkLabel;
-@property NSInteger bulkvv;
-@property (strong, nonatomic) IBOutlet UITextView *textGym;
-@property (strong, nonatomic) IBOutlet UITextView *textDiet;
-@property (strong, nonatomic) IBOutlet UIImageView *gymImage;
+@property NSInteger bulkvv;// this property is used in the transfer of the bmi value here
+
+
+@property (strong, nonatomic) IBOutlet UITextView *textGym;// linking the texfield which displays the gym advice
+@property (strong, nonatomic) IBOutlet UITextView *textDiet;// linking the texfield which displays the diet advice
+@property (strong, nonatomic) IBOutlet UIImageView *gymImage;// the image which displayed
 
 @end

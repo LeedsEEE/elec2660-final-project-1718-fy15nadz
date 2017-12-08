@@ -34,6 +34,8 @@
 }
 */
 
+// Below are action buttons which will display a text when pressed
+
 - (IBAction)quiz4Option1:(id)sender {
     self.quiz4Label.text = @"Everytime is good, proceed";
 }

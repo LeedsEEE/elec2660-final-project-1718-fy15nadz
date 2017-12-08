@@ -34,6 +34,8 @@
 }
 */
 
+// Below are action buttons which will display a text when pressed
+
 - (IBAction)quiz3Option1:(id)sender {
     self.quiz3Label.text = @" opps!wrong, proceed to the next ";
 }

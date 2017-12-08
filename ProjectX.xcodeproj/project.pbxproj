@@ -16,6 +16,8 @@
 		2A90C1F51FDA2F3300B87AD1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A90C1F41FDA2F3300B87AD1 /* MapKit.framework */; };
 		2A90C1F71FDA2F3F00B87AD1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A90C1F61FDA2F3F00B87AD1 /* CoreLocation.framework */; };
 		2A9542AF1FD8E3E300CE6A05 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 2A9542AE1FD8E3E300CE6A05 /* icons */; };
+		2AA6E1521FDAAFA7002F2A62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AA6E1511FDAADF9002F2A62 /* Assets.xcassets */; };
+		2AA6E1551FDABBE0002F2A62 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA6E1541FDABBE0002F2A62 /* MapViewController.m */; };
 		2ABE5F8E1FC30ADA00C6E68D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABE5F8D1FC30ADA00C6E68D /* AppDelegate.m */; };
 		2ABE5F911FC30ADA00C6E68D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABE5F901FC30ADA00C6E68D /* HomeViewController.m */; };
 		2ABE5F941FC30ADA00C6E68D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABE5F931FC30ADA00C6E68D /* SecondViewController.m */; };
@@ -59,6 +61,9 @@
 		2A90C1F41FDA2F3300B87AD1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		2A90C1F61FDA2F3F00B87AD1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		2A9542AE1FD8E3E300CE6A05 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icons; sourceTree = "<group>"; };
+		2AA6E1511FDAADF9002F2A62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AA6E1531FDABBE0002F2A62 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		2AA6E1541FDABBE0002F2A62 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		2ABE5F891FC30ADA00C6E68D /* ProjectX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ABE5F8C1FC30ADA00C6E68D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2ABE5F8D1FC30ADA00C6E68D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -146,6 +151,8 @@
 				2ABE5F931FC30ADA00C6E68D /* SecondViewController.m */,
 				2A7C43851FD57D6D00AA49F5 /* BulkRoutineViewController.h */,
 				2A7C43861FD57D6D00AA49F5 /* BulkRoutineViewController.m */,
+				2AA6E1531FDABBE0002F2A62 /* MapViewController.h */,
+				2AA6E1541FDABBE0002F2A62 /* MapViewController.m */,
 				2ABE5F951FC30ADA00C6E68D /* Main.storyboard */,
 				2A7C438B1FD5F7B900AA49F5 /* Quiz1ViewController.h */,
 				2A7C438C1FD5F7B900AA49F5 /* Quiz1ViewController.m */,
@@ -157,6 +164,7 @@
 				2A7C43A41FD615D800AA49F5 /* Quiz4ViewController.m */,
 				2A7C43A61FD61ACA00AA49F5 /* Quiz5ViewController.h */,
 				2A7C43A71FD61ACA00AA49F5 /* Quiz5ViewController.m */,
+				2AA6E1511FDAADF9002F2A62 /* Assets.xcassets */,
 				2A9542AE1FD8E3E300CE6A05 /* icons */,
 				2ABE5F9A1FC30ADA00C6E68D /* LaunchScreen.storyboard */,
 				2ABE5F9D1FC30ADA00C6E68D /* Info.plist */,
@@ -289,6 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AA6E1521FDAAFA7002F2A62 /* Assets.xcassets in Resources */,
 				2ABE5F9C1FC30ADA00C6E68D /* LaunchScreen.storyboard in Resources */,
 				2A9542AF1FD8E3E300CE6A05 /* icons in Resources */,
 				2ABE5F971FC30ADA00C6E68D /* Main.storyboard in Resources */,
@@ -326,6 +335,7 @@
 				2A7C43A21FD611C400AA49F5 /* Quiz3ViewController.m in Sources */,
 				2A7C43871FD57D6D00AA49F5 /* BulkRoutineViewController.m in Sources */,
 				2ABE5F911FC30ADA00C6E68D /* HomeViewController.m in Sources */,
+				2AA6E1551FDABBE0002F2A62 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
