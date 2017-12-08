@@ -13,6 +13,8 @@
 		2A7C43A21FD611C400AA49F5 /* Quiz3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C43A11FD611C400AA49F5 /* Quiz3ViewController.m */; };
 		2A7C43A51FD615D800AA49F5 /* Quiz4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C43A41FD615D800AA49F5 /* Quiz4ViewController.m */; };
 		2A7C43A81FD61ACA00AA49F5 /* Quiz5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C43A71FD61ACA00AA49F5 /* Quiz5ViewController.m */; };
+		2A90C1F51FDA2F3300B87AD1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A90C1F41FDA2F3300B87AD1 /* MapKit.framework */; };
+		2A90C1F71FDA2F3F00B87AD1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A90C1F61FDA2F3F00B87AD1 /* CoreLocation.framework */; };
 		2A9542AF1FD8E3E300CE6A05 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 2A9542AE1FD8E3E300CE6A05 /* icons */; };
 		2ABE5F8E1FC30ADA00C6E68D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABE5F8D1FC30ADA00C6E68D /* AppDelegate.m */; };
 		2ABE5F911FC30ADA00C6E68D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABE5F901FC30ADA00C6E68D /* HomeViewController.m */; };
@@ -54,6 +56,8 @@
 		2A7C43A41FD615D800AA49F5 /* Quiz4ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quiz4ViewController.m; sourceTree = "<group>"; };
 		2A7C43A61FD61ACA00AA49F5 /* Quiz5ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz5ViewController.h; sourceTree = "<group>"; };
 		2A7C43A71FD61ACA00AA49F5 /* Quiz5ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quiz5ViewController.m; sourceTree = "<group>"; };
+		2A90C1F41FDA2F3300B87AD1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2A90C1F61FDA2F3F00B87AD1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		2A9542AE1FD8E3E300CE6A05 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icons; sourceTree = "<group>"; };
 		2ABE5F891FC30ADA00C6E68D /* ProjectX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ABE5F8C1FC30ADA00C6E68D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A90C1F71FDA2F3F00B87AD1 /* CoreLocation.framework in Frameworks */,
+				2A90C1F51FDA2F3300B87AD1 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +105,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A90C1F31FDA2F3200B87AD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A90C1F61FDA2F3F00B87AD1 /* CoreLocation.framework */,
+				2A90C1F41FDA2F3300B87AD1 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2ABE5F801FC30ADA00C6E68D = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +121,7 @@
 				2ABE5FA71FC30ADA00C6E68D /* ProjectXTests */,
 				2ABE5FB21FC30ADA00C6E68D /* ProjectXUITests */,
 				2ABE5F8A1FC30ADA00C6E68D /* Products */,
+				2A90C1F31FDA2F3200B87AD1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
