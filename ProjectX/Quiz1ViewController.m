@@ -39,7 +39,7 @@
 }
 
 - (IBAction)quiz1Option2:(id)sender {
-    self.quiz1Label.text = @"correct! You can proceeed to the next question" ;
+    self.quiz1Label.text = @"correct!proceeed to the next question" ;
 }
 
 - (IBAction)quiz1Option3:(id)sender {
@@ -47,6 +47,6 @@
 }
 
 - (IBAction)quiz1Option4:(id)sender {
-    self.quiz1Label.text = @" sorry this is not a trick question, please try again";
+    self.quiz1Label.text = @" sorry wrong please try again";
 }
 @end

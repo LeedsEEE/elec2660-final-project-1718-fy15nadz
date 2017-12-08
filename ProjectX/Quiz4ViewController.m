@@ -35,18 +35,16 @@
 */
 
 - (IBAction)quiz4Option1:(id)sender {
-    self.quiz4Label.text = @"checking";
+    self.quiz4Label.text = @"Everytime is good, proceed";
 }
 
 - (IBAction)quiz4Option2:(id)sender {
-    self.quiz4Label.text = @"checking";
+    self.quiz4Label.text = @"There is no badtime, proceed";
 }
 
 - (IBAction)quiz4Option3:(id)sender {
-    self.quiz4Label.text = @"checking";
+    self.quiz4Label.text = @"There is no specific time, proceed";
 }
 
-- (IBAction)quiz4Option4:(id)sender {
-    self.quiz4Label.text = @"checking";
-}
+
 @end

@@ -35,7 +35,7 @@
 */
 
 - (IBAction)quiz3Option1:(id)sender {
-    self.quiz3Label.text = @" wrong you consume less, proceed to the next question";
+    self.quiz3Label.text = @" opps!wrong, proceed to the next ";
 }
 
 - (IBAction)quiz3Option2:(id)sender {

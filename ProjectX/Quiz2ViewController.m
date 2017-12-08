@@ -47,6 +47,6 @@
 }
 
 - (IBAction)quiz2Option4:(id)sender {
-    self.quiz2Label.text = @"you need to visit the gym please try again";
+    self.quiz2Label.text = @"you need to visit the gym try again";
 }
 @end

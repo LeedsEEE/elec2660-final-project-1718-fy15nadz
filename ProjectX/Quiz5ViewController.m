@@ -35,18 +35,18 @@
 */
 
 - (IBAction)quiz5Option1:(id)sender {
-    self.quiz5Label.text = @"check";
+    self.quiz5Label.text = @"sorry wrong please try again";
 }
 
 - (IBAction)quiz5Option2:(id)sender {
-    self.quiz5Label.text = @"Correct! Hurray you have completed the quiz";
+    self.quiz5Label.text = @"Yes! Hurray you have completed the quiz";
 }
 
 - (IBAction)quiz5Option3:(id)sender {
-    self.quiz5Label.text = @"check";
+    self.quiz5Label.text = @"opps wrong, please try again";
 }
 
 - (IBAction)Quiz5option4:(id)sender {
-    self.quiz5Label.text = @"check";
+    self.quiz5Label.text = @"sorry wrong please try again";
 }
 @end
