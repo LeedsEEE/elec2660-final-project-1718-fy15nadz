@@ -28,7 +28,14 @@
     
     [self.location requestWhenInUseAuthorization];
     
+   /*trying  to make teh map zoom on my location
     self.mapV.showsUserLocation = YES;  // show the devices location
+    CLLocation *currentLocation = self.location.location;
+    CLLocationCoordinate2D locationCoords = currentLocation.coordinate;
+    
+    self.mapV.region = MKCoordinateRegionMake(locationCoords, MKCoordinateSpanMake(0.01,0.01));*/
+    
+    
     
     // making the gym locations
     NSMutableArray *locationpin = [[NSMutableArray alloc]init];

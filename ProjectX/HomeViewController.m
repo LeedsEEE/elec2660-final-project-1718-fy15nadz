@@ -76,4 +76,10 @@ replacementString:(NSString *)string {
     
 }
 
+// The logo for the app reference https://travgear.com/cropped-tg-logo-png/
+// User guide tab icon https://furtaev.ru/read_manual_2/
+// map icon reference https://www.flaticon.com/free-icon/map-marker_33622
+
+
+
 @end

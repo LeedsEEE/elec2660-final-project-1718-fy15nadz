@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -18,13 +19,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Tip Gym" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ElI-Gh-cDP">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip Gym" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ElI-Gh-cDP">
                                 <rect key="frame" x="16" y="109" width="343" height="54"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="your fitness guide" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AGg-XA-N5S">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="your fitness guide" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AGg-XA-N5S">
                                 <rect key="frame" x="16" y="185" width="343" height="31"/>
                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="24"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -43,12 +44,14 @@
                             <constraint firstItem="AGg-XA-N5S" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="4gx-EV-9z2"/>
                             <constraint firstItem="aOR-fu-VeS" firstAttribute="top" secondItem="AGg-XA-N5S" secondAttribute="bottom" constant="102" id="7Wk-id-Udw"/>
                             <constraint firstItem="AGg-XA-N5S" firstAttribute="top" secondItem="ElI-Gh-cDP" secondAttribute="bottom" constant="22" id="8QI-e1-AEx"/>
+                            <constraint firstItem="ElI-Gh-cDP" firstAttribute="leading" secondItem="AGg-XA-N5S" secondAttribute="leading" id="JSe-To-LbO"/>
                             <constraint firstItem="ElI-Gh-cDP" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="K0D-Hj-1pM"/>
                             <constraint firstItem="aOR-fu-VeS" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" constant="15" id="P0k-IV-zJl"/>
                             <constraint firstItem="aOR-fu-VeS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="298" id="P67-A6-esT"/>
                             <constraint firstItem="ElI-Gh-cDP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="89" id="PWP-I0-hd7"/>
+                            <constraint firstItem="ElI-Gh-cDP" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="RE1-er-Nff"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="aOR-fu-VeS" secondAttribute="bottom" constant="294" id="UC0-Zh-yRC"/>
-                            <constraint firstItem="aOR-fu-VeS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="79" id="lnY-R5-DxW"/>
+                            <constraint firstItem="aOR-fu-VeS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="79" id="nMF-Yn-ABM"/>
                             <constraint firstItem="AGg-XA-N5S" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="165" id="ssP-CH-B2K"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

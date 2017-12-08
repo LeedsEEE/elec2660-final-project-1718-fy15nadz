@@ -222,7 +222,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rubik" translatesAutoresizingMaskIntoConstraints="NO" id="8q1-5f-cFb">
-                                <rect key="frame" x="47" y="124" width="281" height="227"/>
+                                <rect key="frame" x="67.5" y="124" width="240" height="227"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.096073655930000001" green="0.1637199516" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -230,7 +230,6 @@
                             <constraint firstItem="8q1-5f-cFb" firstAttribute="top" secondItem="UPp-Jj-fue" secondAttribute="bottom" constant="54" id="4el-Ls-uTS"/>
                             <constraint firstItem="UPp-Jj-fue" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" constant="29" id="6ge-BE-9WQ"/>
                             <constraint firstItem="8q1-5f-cFb" firstAttribute="centerX" secondItem="O1u-W8-tvY" secondAttribute="centerX" id="B6Z-lR-4uK"/>
-                            <constraint firstItem="8q1-5f-cFb" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="47" id="DO4-hF-iox"/>
                             <constraint firstItem="8q1-5f-cFb" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" constant="104" id="Di1-f2-J5a"/>
                             <constraint firstItem="UPp-Jj-fue" firstAttribute="centerX" secondItem="O1u-W8-tvY" secondAttribute="centerX" id="HFf-th-r9K"/>
                             <constraint firstItem="nqi-Q4-RDO" firstAttribute="centerX" secondItem="O1u-W8-tvY" secondAttribute="centerX" id="KLM-Of-P9M"/>
