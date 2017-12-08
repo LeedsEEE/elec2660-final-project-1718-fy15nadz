@@ -553,7 +553,7 @@
                                 <rect key="frame" x="0.0" y="574" width="375" height="44"/>
                                 <items/>
                             </toolbar>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Eqj-wq-BeI">
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Eqj-wq-BeI">
                                 <rect key="frame" x="16" y="582" width="335" height="29"/>
                                 <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <segments>
@@ -561,6 +561,7 @@
                                     <segment title="Satellite View"/>
                                     <segment title="HybridView"/>
                                 </segments>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <action selector="switchMap:" destination="Bo9-m3-PjD" eventType="valueChanged" id="HZh-2Q-3qp"/>
                                 </connections>
@@ -570,15 +571,15 @@
                         <constraints>
                             <constraint firstItem="11U-NK-klS" firstAttribute="centerX" secondItem="nIl-Sb-1X1" secondAttribute="centerX" id="52H-2C-Nwp"/>
                             <constraint firstItem="nIl-Sb-1X1" firstAttribute="trailing" secondItem="11U-NK-klS" secondAttribute="trailing" id="7Sn-Cg-f91"/>
-                            <constraint firstItem="Eqj-wq-BeI" firstAttribute="top" secondItem="11U-NK-klS" secondAttribute="bottom" constant="8" id="KXF-Bc-Drt"/>
                             <constraint firstItem="nIl-Sb-1X1" firstAttribute="bottom" secondItem="11U-NK-klS" secondAttribute="bottom" constant="44" id="NQy-vY-4mh"/>
+                            <constraint firstItem="bkE-MG-at9" firstAttribute="leading" secondItem="Eqj-wq-BeI" secondAttribute="trailing" constant="-351" id="Wgf-Ie-or4"/>
                             <constraint firstItem="11U-NK-klS" firstAttribute="top" secondItem="nIl-Sb-1X1" secondAttribute="top" id="dRl-Ny-eZO"/>
                             <constraint firstItem="bkE-MG-at9" firstAttribute="top" secondItem="11U-NK-klS" secondAttribute="bottom" id="ejK-0l-pi2"/>
                             <constraint firstItem="nIl-Sb-1X1" firstAttribute="trailing" secondItem="bkE-MG-at9" secondAttribute="trailing" id="fbw-rE-Y04"/>
+                            <constraint firstItem="Eqj-wq-BeI" firstAttribute="top" secondItem="bkE-MG-at9" secondAttribute="bottom" constant="-36" id="fm0-Ra-vzp"/>
                             <constraint firstItem="bkE-MG-at9" firstAttribute="leading" secondItem="nIl-Sb-1X1" secondAttribute="leading" id="gua-a2-EAE"/>
                             <constraint firstItem="bkE-MG-at9" firstAttribute="centerX" secondItem="nIl-Sb-1X1" secondAttribute="centerX" id="wLb-bv-jxM"/>
                             <constraint firstItem="11U-NK-klS" firstAttribute="leading" secondItem="nIl-Sb-1X1" secondAttribute="leading" id="xT7-tH-m77"/>
-                            <constraint firstItem="Eqj-wq-BeI" firstAttribute="centerY" secondItem="bkE-MG-at9" secondAttribute="centerY" id="yFu-UE-ejV"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="nIl-Sb-1X1"/>
                     </view>
