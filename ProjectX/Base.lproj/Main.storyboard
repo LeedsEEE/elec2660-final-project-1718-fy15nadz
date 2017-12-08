@@ -270,14 +270,14 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="1.   Firstly Input your height and weight on the home page and then press the button run button to calculate your bmi." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4W2-Kg-OsH">
-                                <rect key="frame" x="16" y="203" width="343" height="73"/>
+                                <rect key="frame" x="16" y="174" width="343" height="73"/>
                                 <color key="backgroundColor" red="0.096073655930000001" green="0.1637199516" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1Iz-7Q-jRe">
-                                <rect key="frame" x="16" y="285" width="343" height="96"/>
+                                <rect key="frame" x="16" y="255" width="343" height="96"/>
                                 <color key="backgroundColor" red="0.096073655930000001" green="0.1637199516" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">2.  When your Bmi is displayed press the "Gym/Diet routine" button to reveal the gym and diet  advice for your specific BMI value calculated. </string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -285,9 +285,16 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ilg-g7-c2o">
-                                <rect key="frame" x="16" y="397" width="343" height="162"/>
+                                <rect key="frame" x="16" y="359" width="343" height="141"/>
                                 <color key="backgroundColor" red="0.096073655930000001" green="0.1637199516" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">3.  After seeing your advice go back to the hompage by pressing the "back" button to  Switch to the second tab called quiz to challenge yourself on your knowlege of the gym and also update your self on gym myths.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="4.) If you  have trouble finding a gym do not worry you could used use the map on the third tab to find one" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="XZb-QU-LaP">
+                                <rect key="frame" x="16" y="520" width="343" height="82"/>
+                                <color key="backgroundColor" red="0.096073655930000001" green="0.1637199516" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -297,23 +304,27 @@
                         <constraints>
                             <constraint firstItem="ncp-5R-40l" firstAttribute="centerX" secondItem="bOA-nt-kgu" secondAttribute="centerX" id="0E8-LY-adc"/>
                             <constraint firstItem="ncp-5R-40l" firstAttribute="trailing" secondItem="4W2-Kg-OsH" secondAttribute="trailing" id="0TD-DO-G7f"/>
-                            <constraint firstItem="4W2-Kg-OsH" firstAttribute="top" secondItem="ncp-5R-40l" secondAttribute="bottom" constant="48" id="1Ge-OM-jA2"/>
-                            <constraint firstItem="ilg-g7-c2o" firstAttribute="top" secondItem="bOA-nt-kgu" secondAttribute="top" constant="377" id="23q-xy-Gaa"/>
-                            <constraint firstItem="bOA-nt-kgu" firstAttribute="bottom" secondItem="1Iz-7Q-jRe" secondAttribute="bottom" constant="237" id="Ayi-gJ-j3j"/>
+                            <constraint firstItem="4W2-Kg-OsH" firstAttribute="top" secondItem="ncp-5R-40l" secondAttribute="bottom" constant="19" id="1Ge-OM-jA2"/>
+                            <constraint firstItem="ilg-g7-c2o" firstAttribute="top" secondItem="bOA-nt-kgu" secondAttribute="top" constant="339" id="23q-xy-Gaa"/>
+                            <constraint firstItem="XZb-QU-LaP" firstAttribute="leading" secondItem="ilg-g7-c2o" secondAttribute="leading" id="ADY-Fd-uaN"/>
+                            <constraint firstItem="bOA-nt-kgu" firstAttribute="bottom" secondItem="1Iz-7Q-jRe" secondAttribute="bottom" constant="267" id="Ayi-gJ-j3j"/>
                             <constraint firstItem="JuT-Jz-hOR" firstAttribute="top" secondItem="bOA-nt-kgu" secondAttribute="top" constant="22" id="F2S-Le-KNj"/>
-                            <constraint firstItem="bOA-nt-kgu" firstAttribute="bottom" secondItem="ilg-g7-c2o" secondAttribute="bottom" constant="59" id="H5g-dy-4lB"/>
+                            <constraint firstItem="bOA-nt-kgu" firstAttribute="bottom" secondItem="ilg-g7-c2o" secondAttribute="bottom" constant="118" id="H5g-dy-4lB"/>
                             <constraint firstItem="4W2-Kg-OsH" firstAttribute="centerX" secondItem="bOA-nt-kgu" secondAttribute="centerX" id="KHc-SU-p6B"/>
                             <constraint firstItem="1Iz-7Q-jRe" firstAttribute="centerX" secondItem="bOA-nt-kgu" secondAttribute="centerX" id="LVP-7K-nlG"/>
                             <constraint firstItem="ncp-5R-40l" firstAttribute="leading" secondItem="4W2-Kg-OsH" secondAttribute="leading" id="Nmt-8R-EdI"/>
                             <constraint firstItem="1Iz-7Q-jRe" firstAttribute="leading" secondItem="4W2-Kg-OsH" secondAttribute="leading" id="O7h-y7-AqB"/>
-                            <constraint firstItem="1Iz-7Q-jRe" firstAttribute="top" secondItem="bOA-nt-kgu" secondAttribute="top" constant="265" id="QZA-Hp-dYQ"/>
-                            <constraint firstItem="1Iz-7Q-jRe" firstAttribute="top" secondItem="4W2-Kg-OsH" secondAttribute="bottom" constant="9" id="RG1-2h-gUF"/>
-                            <constraint firstItem="bOA-nt-kgu" firstAttribute="bottom" secondItem="4W2-Kg-OsH" secondAttribute="bottom" constant="342" id="Uh2-G6-JED"/>
+                            <constraint firstItem="1Iz-7Q-jRe" firstAttribute="top" secondItem="bOA-nt-kgu" secondAttribute="top" constant="235" id="QZA-Hp-dYQ"/>
+                            <constraint firstItem="1Iz-7Q-jRe" firstAttribute="top" secondItem="4W2-Kg-OsH" secondAttribute="bottom" constant="8" id="RG1-2h-gUF"/>
+                            <constraint firstItem="bOA-nt-kgu" firstAttribute="bottom" secondItem="4W2-Kg-OsH" secondAttribute="bottom" constant="371" id="Uh2-G6-JED"/>
                             <constraint firstItem="JuT-Jz-hOR" firstAttribute="centerX" secondItem="bOA-nt-kgu" secondAttribute="centerX" id="X7E-MH-71x"/>
+                            <constraint firstItem="XZb-QU-LaP" firstAttribute="top" secondItem="bOA-nt-kgu" secondAttribute="top" constant="500" id="bYq-eZ-LTs"/>
+                            <constraint firstItem="bOA-nt-kgu" firstAttribute="bottom" secondItem="XZb-QU-LaP" secondAttribute="bottom" constant="16" id="bpv-a8-Els"/>
                             <constraint firstItem="ilg-g7-c2o" firstAttribute="centerX" secondItem="bOA-nt-kgu" secondAttribute="centerX" id="ncI-bG-nU1"/>
                             <constraint firstItem="ilg-g7-c2o" firstAttribute="leading" secondItem="1Iz-7Q-jRe" secondAttribute="leading" id="oWp-1l-wbi"/>
                             <constraint firstItem="ncp-5R-40l" firstAttribute="top" secondItem="bOA-nt-kgu" secondAttribute="top" constant="76" id="qhY-zI-gZ7"/>
-                            <constraint firstItem="4W2-Kg-OsH" firstAttribute="top" secondItem="bOA-nt-kgu" secondAttribute="top" constant="183" id="t5H-Za-2EY"/>
+                            <constraint firstItem="4W2-Kg-OsH" firstAttribute="top" secondItem="bOA-nt-kgu" secondAttribute="top" constant="154" id="t5H-Za-2EY"/>
+                            <constraint firstItem="XZb-QU-LaP" firstAttribute="centerX" secondItem="bOA-nt-kgu" secondAttribute="centerX" id="v46-ZV-npw"/>
                             <constraint firstItem="ncp-5R-40l" firstAttribute="leading" secondItem="c9V-7m-MUf" secondAttribute="leadingMargin" id="xME-qe-gOD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="bOA-nt-kgu"/>
@@ -538,7 +549,7 @@
             </objects>
             <point key="canvasLocation" x="1484" y="400.74962518740631"/>
         </scene>
-        <!--Item-->
+        <!--Nearest Gym-->
         <scene sceneID="KAc-xs-UDY">
             <objects>
                 <viewController id="Bo9-m3-PjD" customClass="MapViewController" sceneMemberID="viewController">
@@ -583,7 +594,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="nIl-Sb-1X1"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="8md-ec-Pam"/>
+                    <tabBarItem key="tabBarItem" title="Nearest Gym" image="mapI" id="8md-ec-Pam"/>
                     <connections>
                         <outlet property="mapV" destination="11U-NK-klS" id="zcC-9M-mBs"/>
                     </connections>
@@ -899,8 +910,8 @@
                     <connections>
                         <segue destination="9tp-Xc-KaJ" kind="relationship" relationship="viewControllers" id="SXd-aD-LwN"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
-                        <segue destination="y7B-qg-0g8" kind="relationship" relationship="viewControllers" id="Usx-jt-EfI"/>
                         <segue destination="Bo9-m3-PjD" kind="relationship" relationship="viewControllers" id="d1B-Fp-amk"/>
+                        <segue destination="y7B-qg-0g8" kind="relationship" relationship="viewControllers" id="Usx-jt-EfI"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
@@ -911,6 +922,7 @@
     <resources>
         <image name="Guideicon" width="25" height="25"/>
         <image name="calculator" width="25" height="25"/>
+        <image name="mapI" width="25" height="25"/>
         <image name="quiz" width="25" height="25"/>
         <image name="rubik" width="240" height="265"/>
     </resources>

@@ -30,7 +30,7 @@
     
     self.mapV.showsUserLocation = YES;  // show the devices location
     
-    // making the locations
+    // making the gym locations
     NSMutableArray *locationpin = [[NSMutableArray alloc]init];
     CLLocationCoordinate2D location;
     MapPin *pin;
